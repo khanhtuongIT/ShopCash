@@ -1,0 +1,60 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Views.Setting.ImportCategory"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  xmlns:viewModel = "clr-namespace:CashierRegister.ViewModel.Setting"
+                  xmlns:Helpers="clr-namespace:CashierRegister.Helpers"
+                  xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                  d:DesignHeight="300" d:DesignWidth="300"
+                  Title="{DynamicResource import_category}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+
+    <mui:ModernDialog.DataContext>
+        <viewModel:ImportCategory_VM></viewModel:ImportCategory_VM>
+    </mui:ModernDialog.DataContext>
+    <mui:ModernDialog.Resources>
+        <Helpers:EnumMatchToBooleanConverter x:Key="ConverterBool"></Helpers:EnumMatchToBooleanConverter>
+    </mui:ModernDialog.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{DynamicResource file_type_csv}" Margin="0 0 0 5"></TextBlock>
+        <TextBox Grid.Row="1" Width="300" IsReadOnly="True" HorizontalAlignment="Left" Text="{Binding FileNameImport, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="GotFocus">
+                    <i:InvokeCommandAction Command="{Binding BrowseCmd}"></i:InvokeCommandAction>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </TextBox>
+        <Button Grid.Row="1" x:Name="muiBtnBrowse" Command="{Binding BrowseCmd}" Width="80" Content="Browse" Margin="300,0,5,0" ></Button>
+        <TextBlock Text="{Binding showError}" Margin="0 5 0 5" Grid.Row="2" Foreground="Red" Visibility="{Binding IsVisError}"></TextBlock>
+
+        <TextBlock Grid.Row="3" HorizontalAlignment="Left" Margin="0 5 0 0" VerticalAlignment="Top">
+            <Hyperlink x:Name="hplForgotPassword" Command="{Binding GetSampleFileCmd}"><TextBlock Text="{DynamicResource get_help_cat}"></TextBlock></Hyperlink>
+        </TextBlock>
+
+        <RadioButton Content="{DynamicResource del_curr_insert_new}" Grid.Row="4" Margin="0 30 0 0" IsChecked="{Binding OptionsImport, Converter={StaticResource ConverterBool}, ConverterParameter={x:Static viewModel:TypeImport.Overwrite}}"></RadioButton>
+
+        <RadioButton Content="{DynamicResource keep_curr_insert_new}" Grid.Row="5" Margin="0 10 0 20" IsChecked="{Binding OptionsImport, Converter={StaticResource ConverterBool}, ConverterParameter={x:Static viewModel:TypeImport.Append}}"></RadioButton>
+
+        <mui:ModernProgressRing x:Name="mpr" IsActive="{Binding IsShowProgress, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="6" Margin="0 10 0 0" Style="{StaticResource ThreeBounceProgressRingStyle}"></mui:ModernProgressRing>
+        <StackPanel Orientation="Horizontal" Grid.Row="6" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 10, 0, 0" Visibility="{Binding IsVisibleButton, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <Button x:Name="muiBtnOK" Command="{Binding OkImportCmd}" Width="80" Content="{DynamicResource ok}" Margin="0,0,5,0" ></Button>
+            <Button x:Name="muiBtnCancel" Width="80" Content="{DynamicResource cancel}" Command="{Binding CancelImportCmd, Mode=OneWay}"></Button>
+        </StackPanel>
+    </Grid>
+    
+</mui:ModernDialog>

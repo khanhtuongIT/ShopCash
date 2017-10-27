@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="CashierRegister.UserControls.BCButtonAscDesc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Border CornerRadius="0" VerticalAlignment="Top" BorderThickness="1" BorderBrush="#FF004D40" Height="35" Margin="0 0 0 0" Width="200" HorizontalAlignment="Left">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border x:Name="bdAscending" BorderThickness="1" CornerRadius="0" BorderBrush="Transparent" Background="#FF004D40">
+                <TextBlock x:Name="tblAscending" Text="{DynamicResource single_asc}" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Medium"></TextBlock>
+            </Border>
+
+            <Border x:Name="bdDescending" Grid.Column="1" BorderThickness="1" CornerRadius="0" BorderBrush="Transparent">
+                <TextBlock x:Name="tblDescending" Text="{DynamicResource single_desc}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Silver" FontWeight="Medium"></TextBlock>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>

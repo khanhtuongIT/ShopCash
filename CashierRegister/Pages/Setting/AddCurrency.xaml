@@ -1,0 +1,39 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Pages.Setting.AddCurrency"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="350"
+                  Title="{DynamicResource add_currency}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+    <Grid VerticalAlignment="Top" MinWidth="300">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="{DynamicResource currency}" FontWeight="Medium" VerticalAlignment="Center" Margin="0,0,0,10"></TextBlock>
+        <TextBox x:Name="txbCurrency" MaxLength="200" VerticalAlignment="Center" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Margin="0,0,0,10"></TextBox>
+        <TextBlock Text="{DynamicResource tax_rate}" FontWeight="Medium" VerticalAlignment="Center" Grid.Row="1" Margin="0,0,0,10"></TextBlock>
+        <TextBox x:Name="txbTaxRate" PreviewTextInput="Textbox_PreviewTextInput" VerticalAlignment="Center" Height="25" VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10"></TextBox>
+        <TextBlock Text="{DynamicResource version}" FontWeight="Medium" Grid.Row="2" VerticalAlignment="Center" Margin="0,0,0,10"></TextBlock>
+        <TextBox x:Name="txbVersion" Text="1" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="25" Margin="0,0,0,10" Grid.Row="2" Grid.Column="1"></TextBox>
+        <CheckBox x:Name="chkActive" FontWeight="Medium" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="{DynamicResource active}" Grid.Row="3" Margin="0,0,0,10"></CheckBox>
+
+        <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" Grid.Row="4" HorizontalAlignment="Right" Margin="0,0,0,20">
+            <Button x:Name="btnAdd" Click="btnAdd_Click" Content="{DynamicResource add}" Width="80"></Button>
+            <Button x:Name="btnCancel" Click="btnCancel_Click" Content="{DynamicResource cancel}" Width="80" Margin="5,0,0,0"></Button>
+        </StackPanel>
+        <TextBlock x:Name="tblNotification" Foreground="Firebrick" Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Bottom"></TextBlock>
+    </Grid>
+</mui:ModernDialog>

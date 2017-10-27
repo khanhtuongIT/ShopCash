@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CashierRegister.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="accentColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF76608A</Value>
+    </Setting>
+    <Setting Name="language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">English</Value>
+    </Setting>
+    <Setting Name="outOfStock" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="storeName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">STORE NAME</Value>
+    </Setting>
+    <Setting Name="storeAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Store address</Value>
+    </Setting>
+    <Setting Name="storePhone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Store phone</Value>
+    </Setting>
+    <Setting Name="emailAcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="emailPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="showGuide" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="unit" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="unitVal" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">188</Value>
+    </Setting>
+    <Setting Name="decimalSeparator" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="isSaveLogs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="fontSize" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">12</Value>
+    </Setting>
+    <Setting Name="orderDetailWidth" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">660</Value>
+    </Setting>
+    <Setting Name="CalStandard" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="currentVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2.1.5</Value>
+    </Setting>
+    <Setting Name="appIsRestart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="typeBackup" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

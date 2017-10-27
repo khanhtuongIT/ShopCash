@@ -1,0 +1,47 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Views.Payment"
+                  x:Name="addWindows"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  xmlns:viewModel = "clr-namespace:CashierRegister.ViewModel"
+                  xmlns:vml = "clr-namespace:CashierRegister.Helpers" 
+                  vml:ViewModelLocator.AutoHookedUpViewModel = "True"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="450" d:DesignWidth="400" MaxHeight="1000" MaxWidth="1000"
+                  Title="{DynamicResource payment}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+    
+        <DataGrid ItemsSource="{Binding Payment}" x:Name="dgPayment" HorizontalAlignment="Left" Margin="5,20,0,0" AutoGenerateColumns="False" HeadersVisibility="None" CanUserAddRows="False" >
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Keep">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox Margin="0,5,0,5" Width="200" Content="{Binding PaymentName}" IsChecked="{Binding Path=IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            </CheckBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 50 0 0">
+            <Grid>
+                <Button x:Name="btnOkAddPayment" Margin="5,0,0,0" Content="{DynamicResource ok}" Command="{Binding addPaymentCommand}" CommandParameter="{Binding ElementName=addWindows}"></Button>
+                <mui:ModernProgressRing x:Name="mprSaveSendEmail" IsActive="False" Visibility="Hidden" Style="{StaticResource ThreeBounceProgressRingStyle}"></mui:ModernProgressRing>
+            </Grid>
+            <Button x:Name="btnClose" Content="{DynamicResource cancel}" Command="{Binding CloseWindowCommand, Mode=OneWay}" Margin="5,0,0,0" Width="80" CommandParameter="{Binding ElementName=addWindows}"></Button>
+
+        </StackPanel>
+    </Grid>
+    
+</mui:ModernDialog>

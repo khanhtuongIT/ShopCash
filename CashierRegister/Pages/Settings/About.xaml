@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="CashierRegister.Pages.Settings.About"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" x:Name="UserAbout" Loaded="UserAbout_Loaded" LayoutUpdated="UserControl_LayoutUpdated">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                
+                <!-- app info -->
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Name="tblSoftwareName" Text="" Foreground="RoyalBlue" Style="{StaticResource Heading1}" />
+
+                    <StackPanel Orientation="Vertical" Margin="15 0 0 0">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{DynamicResource version}" FontWeight="Medium"></TextBlock>
+                            <TextBlock Text=": " FontWeight="Medium"></TextBlock>
+                            <TextBlock x:Name="tblVersion" ></TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{DynamicResource license}" FontWeight="Medium"></TextBlock>
+                            <TextBlock Text=": " FontWeight="Medium"></TextBlock>
+                            <TextBlock x:Name="tblLicense"></TextBlock>
+                        </StackPanel>
+
+                        <StackPanel x:Name="stpRegister" Orientation="Horizontal" Visibility="Collapsed">
+                            <TextBlock Text="{DynamicResource registered_to}" FontWeight="Medium"></TextBlock>
+                            <TextBlock Text=": " FontWeight="Medium"></TextBlock>
+                            <TextBlock x:Name="tblRegisteredTo"></TextBlock>
+                        </StackPanel>
+                        
+                        <StackPanel x:Name="stpPurchase" Orientation="Horizontal" Margin="0 5 0 7.5">
+                            <TextBlock TextWrapping="Wrap"><Hyperlink FontWeight="Medium" x:Name="hplPurchaseNow" Click="hplPurchaseNow_Click" FontSize="18"><TextBlock Text="{DynamicResource purchase_now}" Foreground="Firebrick"></TextBlock></Hyperlink></TextBlock>
+                            <TextBlock TextWrapping="Wrap" Margin="10 0 0 0"><Hyperlink FontWeight="Medium" Click="hplRegister_Click"><TextBlock Text="{DynamicResource register}" FontSize="18" Foreground="RoyalBlue"></TextBlock></Hyperlink></TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{DynamicResource website}" FontWeight="Medium"></TextBlock>
+                            <TextBlock Text=": " FontWeight="Medium"></TextBlock>
+                            <TextBlock>
+                                <Hyperlink x:Name="hplWebsite" Click="hplWebsite_Click"><TextBlock Text="http://ipcamsoft.com" Foreground="Black"></TextBlock></Hyperlink>
+                            </TextBlock>
+                        </StackPanel>
+                        
+                        <StackPanel Orientation="Horizontal" Height="20">
+                            <TextBlock Text="{DynamicResource update}" FontWeight="Medium" VerticalAlignment="Center"></TextBlock>
+                            <TextBlock Text=": " FontWeight="Medium"></TextBlock>
+
+                            <TextBlock x:Name="tblCheckForUpdate" VerticalAlignment="Center">
+                                <Hyperlink x:Name="hplCheckForUpdate" Click="hplCheckForUpdate_Click"><TextBlock Text="{DynamicResource check_for_update}" Foreground="Black"></TextBlock></Hyperlink>
+                            </TextBlock>
+
+                            <StackPanel x:Name="stpCheckForUpdate" Visibility="Collapsed" Orientation="Horizontal" VerticalAlignment="Center" Margin="0 2.5 0 0">
+                                <TextBlock x:Name="tblPleaseWait" Text="{DynamicResource please__wait}" FontWeight="Medium"></TextBlock>
+                                <mui:ModernProgressRing x:Name="mpr" Margin="5 0 0 0" IsActive="True" Style="{StaticResource ThreeBounceProgressRingStyle}"></mui:ModernProgressRing>
+                            </StackPanel>
+
+                            <TextBlock x:Name="tblOldVersion" Visibility="Collapsed" VerticalAlignment="Center" Text="{DynamicResource last_version_installed}"></TextBlock>
+
+                            <StackPanel x:Name="stpClickToDownload" Visibility="Collapsed" Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock x:Name="tblNewVersion" Text="{DynamicResource have_new_version}"></TextBlock>
+                                <TextBlock Margin="5,0,0,0">
+                                    <Hyperlink x:Name="hplClickToDownload" RequestNavigate="hplClickToDownload_RequestNavigate"><TextBlock Text="{DynamicResource click_here_to_download}" Foreground="Black"></TextBlock></Hyperlink>
+                                </TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                
+                <!-- more apps-->
+                <StackPanel Orientation="Vertical" Margin="0 10 0 0">
+                    <TextBlock Text="{DynamicResource more_apps}" Foreground="RoyalBlue" Style="{StaticResource Heading1}"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Image x:Name="imgMicrosoftStore" MouseDown="imgMicrosoftStore_MouseDown" Margin="5 0 0 0" Source="pack://application:,,,/Resources/img_microsoft.png" Height="45"></Image>
+                        <Image x:Name="imgGooglePlay" MouseDown="imgGooglePlay_MouseDown" Margin="5 0 0 0" Source="pack://application:,,,/Resources/img_googleplay.png" Height="45"></Image>
+                        <Image x:Name="imgAppStore" MouseDown="imgAppStore_MouseDown" Margin="5 0 0 0" Source="pack://application:,,,/Resources/img_appstore.png" Height="45"></Image>
+                        <Image x:Name="imgAmazonStore" MouseDown="imgAmazonStore_MouseDown" Margin="5 0 0 0" Source="pack://application:,,,/Resources/img_amazon.png" Height="45"></Image>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

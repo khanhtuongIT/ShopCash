@@ -1,0 +1,428 @@
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+G:\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+G:\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+G:\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+G:\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+G:\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+G:\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+G:\CashierRegister_SQLite\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+G:\CashierRegister_SQLite\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+G:\CashierRegister_SQLite\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\paging\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\New folder\CashRegister_Building_Final\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\Updates\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+C:\Users\Tuan\Desktop\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_6_27_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll.config
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.EF6.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.Linq.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\CashierRegisterEntity.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.xml
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Data.SQLite.xml
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.IO.Compression.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.IO.Compression.FileSystem.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\bin\Debug\System.Shim.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterDAL\obj\Debug\CashierRegisterDAL.csprojResolveAssemblyReference.cache

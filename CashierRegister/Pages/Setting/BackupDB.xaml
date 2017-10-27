@@ -1,0 +1,34 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:local="clr-namespace:CashierRegister.Pages.Setting" x:Class="CashierRegister.Pages.Setting.BackupDB"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Margin="{StaticResource SplitLeft}">
+            <TreeView x:Name="tvBackup">
+                <TreeViewItem x:Name="tvBackupLocal" Header="{DynamicResource backup_local}" FontWeight="Medium" IsExpanded="True">
+                    <!--<TreeViewItem Header="Import" FontWeight="Normal" x:Name="tviImport" Selected="tviImport_Selected"/>-->
+                    <TreeViewItem Header="{DynamicResource backup_restore}" FontWeight="Normal" x:Name="tviBackup" Selected="tviBackup_Selected"/>
+                    <TreeViewItem Header="{DynamicResource auto_file}" FontWeight="Normal" x:Name="tviUndo" Selected="tviUndo_Selected"/>
+                    <!--<TreeViewItem Header="{DynamicResource export}" FontWeight="Normal" x:Name="tviExport" Selected="tviExport_Selected"/>-->
+                </TreeViewItem>
+                <TreeViewItem Header="{DynamicResource backup_gdrive}" FontWeight="Medium" x:Name="tviGDrive" Selected="tviGDrive_Selected"/>
+                <TreeViewItem Header="Import/Export" FontWeight="Medium" x:Name="tviImExport" Selected="tviImExport_Selected"/>
+            </TreeView>
+        </ScrollViewer>
+
+        <!--<mui:ModernProgressRing x:Name="mpr" Grid.Column="1" Margin="0,0,0,56" Width="100" Height="100" IsActive="False" Style="{StaticResource CircleProgressRingStyle}"></mui:ModernProgressRing>-->
+        <Grid Grid.Column="1" Margin="{StaticResource SplitRight}" x:Name="grContent">
+            <!--<local:ImportLocal x:Name="UCImportLocal" Visibility="Hidden"></local:ImportLocal>-->
+        </Grid>
+    </Grid>
+</UserControl>

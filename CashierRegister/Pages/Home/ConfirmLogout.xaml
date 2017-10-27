@@ -1,0 +1,23 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Pages.Home.ConfirmLogout"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="300"
+                  Title="{DynamicResource logout}">
+    
+    <Grid Width="250" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="tblConfirm" Margin="0,0,0,15"></TextBlock>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Button x:Name="btnLogout" Click="btnLogout_Click" Width="80" Content="{DynamicResource ok}" Margin="0,0,5,0"></Button>
+            <Button x:Name="btnCancel" Click="btnCancel_Click" Width="80" Content="{DynamicResource cancel}"></Button>
+        </StackPanel>
+    </Grid>
+
+</mui:ModernDialog>

@@ -1,0 +1,255 @@
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+G:\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+G:\CashierRegister_SQLite\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+G:\CashierRegister_SQLite\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+G:\CashierRegister_SQLite\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\paging\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\Database_root\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+E:\Visual studio\Visual C#\projects\Windows desktop\MUI\CashRegister\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Updates\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterEntity.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Data.SQLite.xml
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.csprojResolveAssemblyReference.cache
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\obj\Debug\CashierRegisterBUS.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\CashierRegisterDAL.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.IO.Compression.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.IO.Compression.FileSystem.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterBUS\bin\Debug\System.Shim.dll

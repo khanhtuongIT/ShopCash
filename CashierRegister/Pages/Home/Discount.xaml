@@ -1,0 +1,80 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Pages.Home.Discount"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="400"
+                  Title="{DynamicResource discount}" Loaded="ModernDialog_Loaded">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+
+    <Grid VerticalAlignment="Top" MinWidth="350">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{DynamicResource please_choose_following}" VerticalAlignment="Center" Margin="0,0,0,10"></TextBlock>
+        
+        <Grid Grid.Row="1" Height="35" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Button x:Name="btnAmount" Click="btnAmount_Click" Content="{DynamicResource amount}" Foreground="White" Margin="0,0,1,0" FontWeight="Bold" BorderThickness="0">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="amount" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Content"></ContentPresenter>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="amount" Property="Background" Value="#FF2b6017"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            
+            <Button x:Name="btnPercent" Click="btnPercent_Click" Content="{DynamicResource percent}" Foreground="White" Margin="1,0,0,0" FontWeight="Bold" Grid.Column="1" BorderThickness="0">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="percent" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Content"></ContentPresenter>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="percent" Property="Background" Value="#FF2b6017"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            
+        </Grid>
+        
+        <Grid Grid.Row="2" Margin="0,0,0,30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="tblAmountPercent" VerticalAlignment="Center" FontWeight="Medium"></TextBlock>
+            <TextBlock x:Name="tblDiscountType" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox x:Name="txbAmountPercent" MaxLength="12" PreviewTextInput="txbAmountPercent_PreviewTextInput" KeyDown="txbAmountPercent_KeyDown" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Margin="5,0,0,0"></TextBox>
+        </Grid>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Button x:Name="btnOK" Click="btnOK_Click" Content="{DynamicResource ok}" MinWidth="80"></Button>
+            <Button x:Name="btnCancel" Click="btnCancel_Click" Content="{DynamicResource cancel}" MinWidth="80" Margin="5,0,0,0"></Button>
+        </StackPanel>
+        
+        <TextBlock x:Name="tblNotification" Margin="0,20,0,0" Foreground="Firebrick" VerticalAlignment="Bottom" Grid.Row="4"></TextBlock>
+    </Grid>
+    
+</mui:ModernDialog>

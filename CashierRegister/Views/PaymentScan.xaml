@@ -1,0 +1,70 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Views.PaymentScan"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  xmlns:viewModel = "clr-namespace:CashierRegister.ViewModel"
+                  xmlns:Helpers="clr-namespace:CashierRegister.Helpers"
+                  xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="300"
+                  Title="{DynamicResource giftcard_info}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+    <mui:ModernDialog.DataContext>
+        <viewModel:PaymentScanViewModel></viewModel:PaymentScanViewModel>
+    </mui:ModernDialog.DataContext>
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding scanGiftLoadedCmd}"></i:InvokeCommandAction>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Text="{Binding StringNotify, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Foreground="Red" Grid.ColumnSpan="2" Margin="0,0,0,10"></TextBlock>
+
+        <TextBlock Text="{DynamicResource barcode}" Grid.Row="1" Grid.Column="0" Margin="0,2,0,5" ></TextBlock>
+        <TextBox Text="{Binding Barcode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TabIndex="1" x:Name="txtBarcode" Grid.Row="1" Grid.Column="1" Height="25" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,5" Helpers:TextBoxMaskBehavior.Mask="Integer" Helpers:TextBoxMaskBehavior.MinimumValue="0" Helpers:TextBoxMaskBehavior.MaximumValue="9999999999999" Helpers:SetControlFocus.IsFocused="True">
+            <TextBox.InputBindings>
+                <KeyBinding Key="Return" Command="{Binding keyDownEnterCmd}" CommandParameter="{Binding Text, ElementName=txtBarcode}"></KeyBinding>
+            </TextBox.InputBindings>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="LostFocus">
+                    <i:InvokeCommandAction Command="{Binding lostFocusCmd}"></i:InvokeCommandAction>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <TextBox.ToolTip>
+                <TextBlock Text="{DynamicResource press_giftcard_enter}"></TextBlock>
+            </TextBox.ToolTip>
+        </TextBox>
+
+        <TextBlock Text="{DynamicResource giftcard_balance}" Grid.Row="2" Margin="0,7,0,5"></TextBlock>
+        <TextBox Text="{Binding GiftBalance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" IsReadOnly="True" Grid.Column="1" Height="25" VerticalAlignment="Center" VerticalContentAlignment="Center"  Margin="0,5,0,5"></TextBox>
+
+        <TextBlock Text="{DynamicResource serial_number}" Grid.Row="3" Margin="0,7,0,5"></TextBlock>
+        <TextBox Text="{Binding GiftSerial, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1" Height="25" VerticalAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" Margin="0,5,0,5"></TextBox>
+
+        <TextBlock Text="Use" Grid.Row="4" Margin="0,7,0,5"></TextBlock>
+        <TextBox Text="{Binding UseValue, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TabIndex="2" x:Name="txtUseValue" Grid.Row="4" Grid.Column="1" Height="25" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="0,5,0,5" Helpers:TextBoxMaskBehavior.Mask="Decimal" Helpers:TextBoxMaskBehavior.MaximumValue="999999999.99" Helpers:TextBoxMaskBehavior.MinimumValue="0"></TextBox>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 40, 0, 5">
+            <Button x:Name="muiBtnOK" Command="{Binding starScanGiftCadrCmd}" TabIndex="3" Width="80" Content="{DynamicResource ok}" Margin="0,0,5,0" ></Button>
+            <Button x:Name="muiBtnCancel" Width="80" Content="{DynamicResource cancel}" Command="{Binding CloseWindowCommand, Mode=OneWay}" TabIndex="4"></Button>
+        </StackPanel>
+        <TextBlock Text="{DynamicResource press_0_clear}" Grid.ColumnSpan="2" Grid.Row="6" Margin="0,5,0,0"></TextBlock>
+    </Grid>
+    
+</mui:ModernDialog>

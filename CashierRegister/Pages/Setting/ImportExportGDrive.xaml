@@ -1,0 +1,130 @@
+﻿<UserControl x:Class="CashierRegister.Pages.Setting.ImportExportGDrive"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Background="WhiteSmoke">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <mui:ModernButton x:Name="muiBtnBackup" Click="muiBtnBackup_Click" Visibility="Hidden" EllipseDiameter="35" IconHeight="20" IconWidth="20" Margin="4,0,0,0" VerticalAlignment="Center" IconData="M39.022999,49.737999L39.022999,56.397999 40.181,56.397999 40.181,49.737999z M36.706001,49.737999L36.706001,56.397999 37.864002,56.397999 37.864002,49.737999z M34.389,49.737999L34.389,56.397999 35.548,56.397999 35.548,49.737999z M32.073002,49.737999L32.073002,56.397999 33.231998,56.397999 33.231998,49.737999z M29.756001,49.737999L29.756001,56.397999 30.914001,56.397999 30.914001,49.737999z M27.439001,49.737999L27.439001,56.397999 28.598,56.397999 28.598,49.737999z M25.122,49.737999L25.122,56.397999 26.281,56.397999 26.281,49.737999z M22.806,49.737999L22.806,56.397999 23.963001,56.397999 23.963001,49.737999z M20.49,49.737999L20.49,56.397999 21.647001,56.397999 21.647001,49.737999z M18.172001,49.737999L18.172001,56.397999 19.331001,56.397999 19.331001,49.737999z M15.856,49.737999L15.856,56.397999 17.014,56.397999 17.014,49.737999z M13.539001,49.737999L13.539001,56.397999 14.697001,56.397999 14.697001,49.737999z M11.221002,49.737999L11.221002,56.397999 12.38,56.397999 12.38,49.737999z M8.9050016,49.737999L8.9050016,56.397999 10.064,56.397999 10.064,49.737999z M6.5890007,49.737999L6.5890007,56.397999 7.7469997,56.397999 7.7469997,49.737999z M4.2719994,49.737999L4.2719994,56.397999 5.4300003,56.397999 5.4300003,49.737999z M4.2959995,39.964001L4.2959995,46.528 40.591,46.528 40.591,39.964001z M4.2959995,27.993L4.2959995,34.557999 40.591,34.557999 40.591,27.993z M4.2959995,16.024L4.2959995,22.589001 40.591,22.589001 40.591,16.024z M4.2959995,4.2469997L4.2959995,10.812 40.591,10.812 40.591,4.2469997z M0,0L45.176998,0 45.176998,60.669899 43.246101,60.669899 43.246101,64 38.806,64 38.806,60.669899 6.1783905,60.669899 6.1783905,64 1.7382402,64 1.7382402,60.669899 0,60.669899z">
+                <mui:ModernButton.ToolTip>
+                    <TextBlock Text="{DynamicResource backup_database}"></TextBlock>
+                </mui:ModernButton.ToolTip>
+            </mui:ModernButton>
+
+            <TextBlock x:Name="tblTotal" Text="{DynamicResource checkout_zero}" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Firebrick" Style="{StaticResource Heading2}"></TextBlock>
+        </Grid>
+
+        <mui:ModernProgressRing x:Name="mpr" Margin="0,0,0,56" IsActive="False" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="100" Style="{StaticResource CircleProgressRingStyle}" Grid.Row="1"></mui:ModernProgressRing>
+        <DataGrid x:Name="dtgDatabase" HeadersVisibility="Column" Grid.Row="1" Visibility="Hidden" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                
+                <!--<DataGridTemplateColumn>
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="{DynamicResource no_title}"></TextBlock>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Margin="3,0,0,0" Text="{Binding Path=Id}" VerticalAlignment="Center"></TextBlock>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="{DynamicResource backup_date}"></TextBlock>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Path=BackupDate}" VerticalAlignment="Center"></TextBlock>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="{DynamicResource file_size}"></TextBlock>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Path=FileSize}" VerticalAlignment="Center"></TextBlock>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="{DynamicResource delete}"></TextBlock>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="btnDelete_Click" BorderThickness="0" Background="Transparent" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                <Image Source="{Binding Path=BitmapImage_Delete}" Width="18" Height="18" VerticalAlignment="Center"></Image>
+                                <Button.ToolTip>
+                                    <TextBlock Text="{DynamicResource delete_database}"></TextBlock>
+                                </Button.ToolTip>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="{DynamicResource restore}"></TextBlock>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="btnRestore_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left">
+                                <Image Source="{Binding Path=BitmapImage_Restore}" Width="20" Height="20" VerticalAlignment="Center"></Image>
+                                <Button.ToolTip>
+                                    <TextBlock Text="{DynamicResource restore_database}"></TextBlock>
+                                </Button.ToolTip>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <!--<DataGridTemplateColumn>
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="Undo" Visibility="Hidden"></TextBlock>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="btnUndo_Click" BorderThickness="0" Background="Transparent" Visibility="{Binding Visibility}" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                <Image Source="{Binding Path=BitmapImage_Undo}" Width="20" Height="20" VerticalAlignment="Center"></Image>
+                                <Button.ToolTip>
+                                    <TextBlock Text="Click to undo restore database"></TextBlock>
+                                </Button.ToolTip>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        
+        <Grid Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="tblEmailAddress" Foreground="OliveDrab" Visibility="Hidden" Margin="0,0,5,0"></TextBlock>
+            <TextBlock Grid.Column="1" x:Name="tblLogout" Visibility="Hidden"><Hyperlink x:Name="hplLogout" Click="hplLogout_Click"> <TextBlock Text="{DynamicResource logout}"></TextBlock></Hyperlink></TextBlock>
+            <TextBlock Grid.Column="1" x:Name="tblLogin" Visibility="Hidden"><Hyperlink x:Name="hplLogin" Click="hplLogin_Click"> <TextBlock Text="{DynamicResource login}"></TextBlock></Hyperlink></TextBlock>
+        </Grid>
+
+    </Grid>
+</UserControl>

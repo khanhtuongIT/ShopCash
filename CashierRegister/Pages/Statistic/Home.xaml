@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="CashierRegister.Pages.Statistic.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CashierRegister.Pages.Statistic"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" Loaded="UserControl_Loaded"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <mui:ModernProgressRing x:Name="mpr" Width="100" Height="100" Margin="0 0 0 56" IsActive="False" Style="{StaticResource CircleProgressRingStyle}"></mui:ModernProgressRing>
+        <Grid x:Name="grdContent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Background="WhiteSmoke">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <ComboBox x:Name="cboCategory" IsTextSearchEnabled="True" VerticalAlignment="Center" Height="25" MinWidth="100" Margin="5 0 0 0" SelectedValuePath="CategoryID" DisplayMemberPath="CategoryName" ItemsSource="{Binding}" SelectionChanged="cboCategory_SelectionChanged"></ComboBox>
+                
+                <Grid Grid.Column="1" VerticalAlignment="Center" Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{DynamicResource year}" Margin="25 0 5 0" VerticalAlignment="Center"></TextBlock>
+                    <ComboBox x:Name="cboYear" IsTextSearchEnabled="True" MinWidth="100" Grid.Column="1" DisplayMemberPath="Year" SelectedValuePath="Year"></ComboBox>
+
+                    <TextBlock Text="{DynamicResource month}" Margin="10 0 5 0" Grid.Column="2" VerticalAlignment="Center"></TextBlock>
+                    <ComboBox x:Name="cboMonth" IsTextSearchEnabled="True" MinWidth="100" Grid.Column="3" DisplayMemberPath="Month" SelectedValuePath="Month"></ComboBox>
+
+                    <TextBlock Text="{DynamicResource day}" Margin="10 0 5 0" Grid.Column="4" VerticalAlignment="Center"></TextBlock>
+                    <ComboBox x:Name="cboDay" IsTextSearchEnabled="True" MinWidth="100" Grid.Column="5" DisplayMemberPath="Day" SelectedValuePath="Day"></ComboBox>
+                </Grid>
+                
+                <TextBlock x:Name="tblTotal" Grid.Column="2" Text="{DynamicResource total_zero}" Style="{StaticResource Heading2}" Foreground="Firebrick" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+
+                <StackPanel Grid.Column="3" VerticalAlignment="Center" Orientation="Horizontal" Margin="0,0,5,0">
+                    <TextBox Width="150" Height="25" x:Name="txbSearch" Margin="0,0,3,0" VerticalAlignment="Center" KeyDown="txbSearch_KeyDown"></TextBox>
+                    <mui:ModernButton x:Name="muiBtnSearch" Click="muiBtnSearch_Click" EllipseDiameter="30" IconHeight="15" IconWidth="15" IconData="M342.392,122.987C239.49,123.006 151.319,192.921 140.685,286.729 129.343,386.789 210.561,476.166 322.073,486.305 433.726,496.357 533.008,423.562 544.399,323.418 555.741,223.444 474.71,134.106 363.15,123.929 356.177,123.295 349.252,122.986 342.392,122.987z M340.78,4E-06C352.307,-0.001703 363.944,0.518666 375.661,1.58401 563.21,18.6332 699.556,168.869 680.651,337.114 673.881,396.629 648.395,450.326 610.166,494.346L838.748,738.109C867.595,768.799 863.114,814.838 828.805,840.765 794.543,866.563 743.291,862.542 714.304,831.844L482.736,584.564C429.618,606.553 369.17,616.354 306.764,610.781 119.305,593.649 -17.2717,443.415 1.77271,275.211 19.7129,117.518 167.869,0.025549 340.78,4E-06z">
+                        <mui:ModernButton.ToolTip>
+                            <TextBlock Text="{DynamicResource search}"></TextBlock>
+                        </mui:ModernButton.ToolTip>
+                    </mui:ModernButton>
+                </StackPanel>
+            </Grid>
+
+            <DataGrid x:Name="dtgStatistic" Visibility="Visible" Grid.Row="1" HeadersVisibility="Column" IsReadOnly="True" AutoGenerateColumns="False" SelectionMode="Single">
+                <DataGrid.Columns>
+                    
+                    <!--<DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <TextBlock Text="{DynamicResource no_title}"></TextBlock>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding No}" VerticalAlignment="Center" MinHeight="30"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>-->
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <TextBlock Text="{DynamicResource product_name}"></TextBlock>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding SortName}" VerticalAlignment="Center" Margin="0 5 0 5"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <TextBlock Text="{DynamicResource category_name}"></TextBlock>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding CategoryName}" VerticalAlignment="Center"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <TextBlock Text="{DynamicResource sold_quantity}"></TextBlock>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding SoldQuantity}" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <TextBlock Text="{DynamicResource quantity_available}"></TextBlock>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding QuantityAvailable}" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,97 @@
+﻿<UserControl x:Class="CashierRegister.Pages.Setting.Payment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <mui:ModernProgressRing x:Name="mpr" Width="100" Height="100" IsActive="False" Style="{StaticResource CircleProgressRingStyle}"></mui:ModernProgressRing>
+        <Grid x:Name="grContent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Background="WhiteSmoke">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <mui:ModernButton x:Name="muiBtnAdd" Click="muiBtnAdd_Click" Margin="2,0,0,0" EllipseDiameter="35" IconHeight="20" IconWidth="20" VerticalAlignment="Center" IconData="M19.833,0L32.501,0 32.501,19.833999 52.334,19.833999 52.334,32.500999 32.501,32.500999 32.501,52.333 19.833,52.333 19.833,32.500999 0,32.500999 0,19.833999 19.833,19.833999z">
+                    <mui:ModernButton.ToolTip>
+                        <TextBlock Text="{DynamicResource add_payment}"></TextBlock>
+                    </mui:ModernButton.ToolTip>
+                </mui:ModernButton>
+                
+                <TextBlock x:Name="tblTotal" HorizontalAlignment="Center" Foreground="Firebrick" Style="{StaticResource Heading2}" VerticalAlignment="Center" Grid.Column="1"></TextBlock>
+            </Grid>
+
+            <DataGrid x:Name="dtgCard" MouseDoubleClick="dtgUser_MouseDoubleClick" Visibility="Hidden" Grid.Row="1" AutoGenerateColumns="False" SelectionMode="Single" IsReadOnly="True" HeadersVisibility="Column">
+                <DataGrid.Columns>
+
+                    <!--<DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <TextBlock Text="{DynamicResource no_title}"></TextBlock>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path=No}" Margin="3,0,0,0" VerticalAlignment="Center"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>-->
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <TextBlock Text="{DynamicResource card}"></TextBlock>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path=Card}" VerticalAlignment="Center"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.Header>
+                            <Grid Width="100">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{DynamicResource edit}" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="{DynamicResource delete}" HorizontalAlignment="Center" Grid.Column="1"></TextBlock>
+                            </Grid>
+                        </DataGridTemplateColumn.Header>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Grid Width="100">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Uid="{Binding Path=PaymentID}" Click="btnEdit_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                                        <Image Source="{Binding Path=EditImage}" Width="18" Height="18" HorizontalAlignment="Center"></Image>
+                                        <Button.ToolTip>
+                                            <TextBlock Text="{DynamicResource edit_payment}"></TextBlock>
+                                        </Button.ToolTip>
+                                    </Button>
+
+                                    <Button Uid="{Binding Path=PaymentID}" Grid.Column="1" Click="btnDelete_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                                        <Image Source="{Binding Path=DeleteImage}" Width="18" Height="18" HorizontalAlignment="Center"></Image>
+                                        <Button.ToolTip>
+                                            <TextBlock Text="{DynamicResource delete_payment}"></TextBlock>
+                                        </Button.ToolTip>
+                                    </Button>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

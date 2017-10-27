@@ -1,0 +1,211 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Views.ShellOut"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  xmlns:local = "clr-namespace:CashierRegister.Views"
+                  xmlns:viewModel = "clr-namespace:CashierRegister.ViewModel"
+                  xmlns:vml = "clr-namespace:CashierRegister.Helpers" 
+                  vml:ViewModelLocator.AutoHookedUpViewModel = "True"
+                  xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="1000" d:DesignWidth="1000" MaxWidth="9999" MaxHeight="9999" Loaded="ModernDialog_Loaded" KeyDown="ModernDialog_KeyDown"
+                  Title="{DynamicResource single_pay}">
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+    <mui:ModernDialog.Resources>
+        <DataTemplate x:Key = "studentsTemplate">
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock x:Name="txtPaymentName" FontSize="16" Text="{Binding Path = PaymentName, Mode = TwoWay}" Grid.Column="0" Width="140" Margin="0,5,10,7">
+                </TextBlock>
+                <mui:ModernButton Uid="{Binding PaymentId}" x:Name="btDelete" TextElement.Foreground="White" EllipseStrokeThickness="0" IconHeight="16" IconWidth="16" HorizontalAlignment="Center" VerticalAlignment="Center" IconData="M2.0050016,10.291992L6.2790426,10.291992 6.2790426,28.350006 9.5599821,28.350006 9.5599821,10.291992 14.490027,10.291992 14.490027,28.350006 17.772981,28.350006 17.772981,10.291992 22.04696,10.291992 22.04696,32 2.0050016,32z M0,3.5249939L24.053,3.5249939 24.053,6.6329956 0,6.6329956z M6.5170182,0L17.535981,0 17.535981,2.8399963 6.5170182,2.8399963z"
+                              Margin="-20,0,0,0" Visibility="{Binding ShowButtonDel, Mode=OneTime}" Command="{Binding Path = DataContext.btDelPaymentCmd, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListView}}}" CommandParameter="{Binding Uid, ElementName=btDelete}"
+                              >
+                    <mui:ModernButton.ToolTip>
+                        <TextBlock Text="{DynamicResource del_this_payment}"></TextBlock>
+                    </mui:ModernButton.ToolTip>
+                </mui:ModernButton>
+                <TextBlock x:Name="txtPaymentBalance" FontSize="16" Text="{Binding Path = PaymentBalance, Mode = TwoWay}" HorizontalAlignment="Right" Grid.Column="1" TextAlignment="Right" Width="150" Margin="0,5,0,7"></TextBlock>
+                <!--<TextBox x:Name="txtPaymentBalance" Text="{Binding Path = PaymentBalance, Mode = TwoWay}" TextAlignment="Right" Grid.Column="1" HorizontalAlignment="Right" Width="170" Margin="0,5,0,7" BorderThickness="0" Background="Transparent" Foreground="White"></TextBox>-->
+                <StackPanel.ToolTip>
+                    <TextBlock Text="{DynamicResource select_then_press}"></TextBlock>
+                </StackPanel.ToolTip>
+            </StackPanel>
+      </DataTemplate> 
+    </mui:ModernDialog.Resources>
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Unloaded">
+            <i:InvokeCommandAction Command="{Binding unloadedCmd}"></i:InvokeCommandAction>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid x:Name="grdMain" Width="900">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <ListView ItemsSource="{Binding Path = ShellOut}" ItemTemplate="{StaticResource studentsTemplate}" SelectedItem="{Binding SelectedShellOut}" x:Name="lstShellOut" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="SelectionChanged">
+                            <i:InvokeCommandAction Command="{Binding Path = DataContext.MouseDownCmd, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListView}}}" CommandParameter="{Binding SelectedItem, ElementName=lstShellOut}"></i:InvokeCommandAction>
+                        </i:EventTrigger>
+                        <i:EventTrigger EventName="MouseDoubleClick">
+                            <i:InvokeCommandAction Command="{Binding Path=DataContext.MouseDoubleClickCmd, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListView}}}" CommandParameter="{Binding SelectedItem, ElementName=lstShellOut}"></i:InvokeCommandAction>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </ListView>
+            </Grid>
+            <Separator Grid.ColumnSpan="3" Grid.Row="0" Background="WhiteSmoke" VerticalAlignment="Bottom" Margin="0,20,0,0"></Separator>
+            
+            <Grid Grid.Row="1" Margin="0,5,0,100">
+                
+                <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,5,0,5" VerticalAlignment="Top">
+                    <mui:ModernButton TextElement.Foreground="Blue" Command="{Binding AddShellOutCommand}" CommandParameter="{Binding ItemsSource, ElementName=lstShellOut}" x:Name="muiBtnAdd" EllipseDiameter="20" IconHeight="8" IconWidth="8" HorizontalAlignment="Center" VerticalAlignment="Center" IconData="M19.833,0L32.501,0 32.501,19.833999 52.334,19.833999 52.334,32.500999 32.501,32.500999 32.501,52.333 19.833,52.333 19.833,32.500999 0,32.500999 0,19.833999 19.833,19.833999z">
+                    </mui:ModernButton>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,5,0,5" VerticalAlignment="Top">
+                    <mui:ModernButton x:Name="btRemovePayment" TextElement.Foreground="Red" Command="{Binding removeShellOutCommand}" CommandParameter="{Binding SelectedItem, ElementName=lstShellOut}" EllipseDiameter="20" IconHeight="8" IconWidth="8" HorizontalAlignment="Center" VerticalAlignment="Center" IconData="M2.3919983,1.8820133C2.1150208,1.8820135,1.882019,2.1150147,1.882019,2.3910147L1.882019,5.1360014C1.882019,5.4129785,2.1150208,5.6469863,2.3919983,5.6469863L29.608002,5.6469863C29.884003,5.6469863,30.117004,5.4129785,30.117004,5.1360014L30.117004,2.3910147C30.117004,2.1150147,29.884003,1.8820135,29.608002,1.8820133z M2.3919983,0L29.608002,0C30.927002,1.37401E-07,32,1.0729949,32,2.3910147L32,5.1360014C32,6.4559744,30.927002,7.5290001,29.608002,7.5290001L2.3919983,7.5290001C1.072998,7.5290001,0,6.4559744,0,5.1360014L0,2.3910147C0,1.0729949,1.072998,1.37401E-07,2.3919983,0z"
+                                  >
+                    </mui:ModernButton>
+                </StackPanel>-->
+            </Grid>
+            <Separator Grid.ColumnSpan="3" Grid.Row="1" Background="WhiteSmoke" VerticalAlignment="Bottom"></Separator>
+            
+            <TextBlock Grid.Row="2" Text="{DynamicResource total}" VerticalAlignment="Center" FontSize="16" Margin="5,10,0,5" FontWeight="Medium" ></TextBlock>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,10,10,5">
+                <TextBlock x:Name="tblTotalUnit" FontSize="18" Text="" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="tblTotal" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" ></TextBlock>
+            </StackPanel>
+            <Separator Grid.ColumnSpan="3" Background="WhiteSmoke" Grid.Row="2" VerticalAlignment="Bottom" ></Separator>
+
+            <TextBlock Grid.Row="3" Text="{DynamicResource cash_balance}" VerticalAlignment="Center" FontSize="16" Margin="5,10,0,9" FontWeight="Medium" HorizontalAlignment="Left" Width="475" ></TextBlock>
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" >
+                <TextBlock x:Name="tblCashBalanceUnit" FontSize="17" Foreground="Firebrick" Text="" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="tblCashBalance" FontSize="19" Foreground="Firebrick" FontWeight="DemiBold" VerticalAlignment="Center" Text="{Binding txtTotal, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ></TextBlock>
+            </StackPanel>
+            <Separator Grid.ColumnSpan="3" Grid.Row="3" Background="WhiteSmoke" VerticalAlignment="Bottom" ></Separator>
+            <mui:ModernButton Visibility="{Binding IsShowButtonAddPayment, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" EllipseDiameter="30" x:Name="mainButtonAdd" IconHeight="20" IconWidth="20" HorizontalAlignment="Right" VerticalAlignment="Top" IconData="M12.126984,0L19.872009,0 19.872009,12.128 32,12.128 32,19.872999 19.872009,19.872999 19.872009,31.999 12.126984,31.999 12.126984,19.872999 0,19.872999 0,12.128 12.126984,12.128z"
+                              Margin="0, -50, 0, 0" Command="{Binding AddShellOutCommand}" EllipseStrokeThickness="2"
+                              >
+                <mui:ModernButton.ToolTip>
+                    <TextBlock Text="{DynamicResource add_other_payment}"></TextBlock>
+                </mui:ModernButton.ToolTip>
+            </mui:ModernButton>
+        </Grid>
+
+        <Grid Grid.Column="1" Margin="20,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="column1" Width="2*"></ColumnDefinition>
+                <ColumnDefinition x:Name="column2" Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--hamburger menu-->
+            <Menu Background="Transparent" Grid.ColumnSpan="2" Margin="0 0 0 10">
+                <MenuItem Background="Transparent" BorderBrush="Transparent">
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE700;" FontWeight="Bold" FontFamily="pack://application:,,,/Resources/#Segoe MDL2 Assets" FontSize="20"/>
+                            <TextBlock x:Name="tblCalType" Text="{DynamicResource setting_upper}" FontFamily="Tahoma" FontWeight="ExtraLight" FontSize="13" VerticalAlignment="Bottom" Margin="5 0 0 0"/>
+                        </StackPanel>
+                    </MenuItem.Header>
+
+                    <MenuItem x:Name="mnuiStandard" Click="mnuiStandard_Click">
+                        <MenuItem.Icon>
+                            <TextBlock x:Name="tblstandardIcon" FontFamily="pack://application:,,,/Resources/#Segoe MDL2 Assets" Text="&#xE10B;"/>
+                        </MenuItem.Icon>
+                        <MenuItem.Header>
+                            <TextBlock FontFamily="Tahoma" FontSize="14" Margin="0 10 0 0" Text="{DynamicResource standard}"/>
+                        </MenuItem.Header>
+                    </MenuItem>
+
+                    <MenuItem x:Name="mnuiExtend" Click="mnuiExtend_Click">
+                        <MenuItem.Icon>
+                            <TextBlock x:Name="tblExtendIcon" FontFamily="pack://application:,,,/Resources/#Segoe MDL2 Assets" Text="&#xE10B;"/>
+                        </MenuItem.Icon>
+                        <MenuItem.Header>
+                            <TextBlock FontFamily="Tahoma" FontSize="14" Margin="0 10 0 0" Text="{DynamicResource extend}" />
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            <!--end hamburger menu-->
+
+            <!--grid pay template-->
+            <Grid x:Name="grdPayTemplate" Grid.Row="1" Margin="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <!--end grid  pay template-->
+
+            <Grid x:Name="grdPayNum" Grid.Column="1" Grid.Row="1" Margin="0 0 0 0" FocusManager.IsFocusScope="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <!--<ColumnDefinition></ColumnDefinition>-->
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="contentTotal" Margin="0 0 2 2" Content="{Binding DataContext.GetTotalTxt, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource Self}}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource buttonMoneyStyle}" FontSize="15" Command="{Binding getTotalCmd}" CommandParameter="{Binding Content, ElementName=contentTotal}"/>
+                <Button x:Name="btnBackspace" Click="btnBackspace_Click" Margin="0 0 0 2" Content="{DynamicResource backspace}" Grid.Row="0" Grid.Column="2" Style="{ StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="7" Click="btnNum_Click" Margin="0 0 2 2" Content="7" Grid.Row="1" Grid.Column="0" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="8" Click="btnNum_Click" Margin="0 0 2 2" Content="8" Grid.Row="1" Grid.Column="1" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="9" Click="btnNum_Click" Margin="0 0 0 2" Content="9" Grid.Row="1" Grid.Column="2" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="4" Click="btnNum_Click" Margin="0 0 2 2" Content="4" Grid.Row="2" Grid.Column="0" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="5" Click="btnNum_Click" Margin="0 0 2 2" Content="5" Grid.Row="2" Grid.Column="1" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="6" Click="btnNum_Click" Margin="0 0 0 2" Content="6" Grid.Row="2" Grid.Column="2" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="1" Click="btnNum_Click" Margin="0 0 2 2" Content="1" Grid.Row="3" Grid.Column="0" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="2" Click="btnNum_Click" Margin="0 0 2 2" Content="2" Grid.Row="3" Grid.Column="1" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="3" Click="btnNum_Click" Margin="0 0 0 2" Content="3" Grid.Row="3" Grid.Column="2" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button Uid="0" Click="btnNum_Click" Margin="0 0 2 2" Content="0" Grid.Row="4" Grid.Column="0" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button x:Name="btnpoint" Click="btnpoint_Click" Margin="0 0 2 2" Content="." Grid.Row="4" Grid.Column="1" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+                <Button x:Name="btnClear" Click="btnClear_Click" Margin="0 0 0 2" Content="C" Grid.Row="4" Grid.Column="2" Style="{StaticResource buttonMoneyStyle}" FontSize="15"/>
+            </Grid>
+        </Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Grid.ColumnSpan="2" Margin="0,50,0,0" Grid.Row="1">
+            <Grid>
+                <Button IsEnabled="{Binding IsActiveButton, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="btnSaveInvoice" Click="btnSaveInvoice_Click" Width="120" Content="{DynamicResource save_invoice}" ></Button>
+                <mui:ModernProgressRing x:Name="mprSaveInvoice" IsActive="False" Visibility="Hidden" Style="{StaticResource ThreeBounceProgressRingStyle}"></mui:ModernProgressRing>
+            </Grid>
+            <Grid>
+                <Button IsEnabled="{Binding IsActiveButton, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="btnSaveSendEmail" Click="btnSaveSendEmail_Click" Content="{DynamicResource save_print_or_send_email}" Margin="5,0,0,0"></Button>
+                <mui:ModernProgressRing x:Name="mprSaveSendEmail" IsActive="False" Visibility="Hidden" Style="{StaticResource ThreeBounceProgressRingStyle}"></mui:ModernProgressRing>
+            </Grid>
+            <Button Click="btnClose_Click" x:Name="btnClose" Margin="5,0,0,0" Width="100" Content="{DynamicResource close}" ></Button>
+        </StackPanel>
+    </Grid>
+</mui:ModernDialog>

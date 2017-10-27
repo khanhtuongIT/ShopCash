@@ -1,0 +1,30 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Views.AddPaymentToPayCash"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="450" d:DesignWidth="400" MaxHeight="1000" MaxWidth="1000"
+                  Title="{DynamicResource sel_payment_add}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="lstPayment"></ListBox>
+        <StackPanel x:Name="stpCard" Orientation="Vertical" MinHeight="375"></StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 20 0 0">
+            <Grid>
+                <Button x:Name="btnOkAddPayment" Margin="5,0,0,0" Content="{DynamicResource ok}"></Button>
+                <mui:ModernProgressRing x:Name="mprSaveSendEmail" IsActive="False" Visibility="Hidden" Style="{StaticResource ThreeBounceProgressRingStyle}"></mui:ModernProgressRing>
+            </Grid>
+            <Button x:Name="btnClose" Click="btnClose_Click" Content="{DynamicResource cancel}" Margin="5,0,0,0" Width="80"></Button>
+        </StackPanel>
+    </Grid>
+
+</mui:ModernDialog>

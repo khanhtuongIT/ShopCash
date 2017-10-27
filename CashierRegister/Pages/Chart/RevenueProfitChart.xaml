@@ -1,0 +1,127 @@
+﻿<UserControl x:Class="CashierRegister.Pages.Chart.RevenueProfitChart"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+             xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
+
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="grdRevenueProfitYear" Margin="0,0,5,5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <chartingToolkit:Chart x:Name="ctRevenueProfitYear" Foreground="DarkCyan" FontWeight="Medium" Margin="0,0,3,3" Visibility="Visible" Title="{DynamicResource revenue_and_profit}">
+                <chartingToolkit:ColumnSeries x:Name="ctcRevenueYear" Title="{DynamicResource revenue}" DependentValueBinding="{Binding Revenue}" IndependentValueBinding="{Binding Year}" ItemsSource="{Binding}" IsSelectionEnabled="True"></chartingToolkit:ColumnSeries>
+                <chartingToolkit:LineSeries x:Name="ctlProfitYear" Title="{DynamicResource profit}" DependentValueBinding="{Binding Profit}" IndependentValueBinding="{Binding Year}" ItemsSource="{Binding}" IsSelectionEnabled="True"></chartingToolkit:LineSeries>
+            </chartingToolkit:Chart>
+
+            <Border BorderThickness="1" BorderBrush="Black" Height="100" VerticalAlignment="Center" Grid.Row="1" Margin="0 0 3 0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Background="#FFE0E0E0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Separator VerticalAlignment="Bottom" Grid.ColumnSpan="3" Background="#FF616161"></Separator>
+                        <Separator VerticalAlignment="Bottom" Grid.ColumnSpan="3" Grid.Row="1" Background="#FF616161"></Separator>
+
+                        <TextBlock Text="{DynamicResource year}" Style="{StaticResource textBlockTitle}"></TextBlock>
+                        <TextBlock x:Name="tblRevenueYear" Text="{DynamicResource revenue}" Grid.Row="1" Style="{StaticResource textBlockTitle}"></TextBlock>
+                        <TextBlock x:Name="tblProfitYear" Text="{DynamicResource profit}" Grid.Row="2" Style="{StaticResource textBlockTitle}"></TextBlock>
+                    </Grid>
+
+                    <Grid Grid.Column="1" x:Name="grdTableRevenueProfitYear">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+        <mui:ModernProgressRing x:Name="mprRevenueProfitYear" Width="75" Height="75" VerticalAlignment="Center" HorizontalAlignment="Center" IsActive="False" Style="{StaticResource CircleProgressRingStyle}"></mui:ModernProgressRing>
+        <Image x:Name="imgSaveRevenueProfitYearPNG" MouseDown="imgSaveRevenueProfitYearPNG_MouseDown" Margin="0 4 0 0" Source="pack://application:,,,/Resources/export_image.png" Stretch="None" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+
+        <StackPanel x:Name="stpYearRevenueProfittMonth" Orientation="Horizontal" Margin="5 0 3 0" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1"></StackPanel>
+        <Grid x:Name="grdRevenueProfitMonthPar" Grid.Column="1" Margin="5 50 0 5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid x:Name="grdRevenueProfitMonthChil" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <chartingToolkit:Chart x:Name="ctRevenueProfitMonth" Foreground="OliveDrab" FontWeight="Medium" Margin="0 0 3 3" Title="{DynamicResource revenue_and_profit}">
+                    <chartingToolkit:ColumnSeries Foreground="RoyalBlue" x:Name="ctcRevenueMonth" Title="{DynamicResource revenue}" DependentValueBinding="{Binding Revenue}" IndependentValueBinding="{Binding Month}" ItemsSource="{Binding}" IsSelectionEnabled="True"></chartingToolkit:ColumnSeries>
+                    <chartingToolkit:LineSeries x:Name="ctlProfitMonth" Title="{DynamicResource profit}" DependentValueBinding="{Binding Profit}" IndependentValueBinding="{Binding Month}" ItemsSource="{Binding}" IsSelectionEnabled="True"></chartingToolkit:LineSeries>
+                </chartingToolkit:Chart>
+
+                <Border BorderThickness="1" BorderBrush="Black" Height="100" VerticalAlignment="Center" Grid.Row="1" Margin="0 0 3 0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Background="#FFE0E0E0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Separator VerticalAlignment="Bottom" Grid.ColumnSpan="3" Background="#FF616161"></Separator>
+                            <Separator VerticalAlignment="Bottom" Grid.ColumnSpan="3" Grid.Row="1" Background="#FF616161"></Separator>
+
+                            <TextBlock Text="{DynamicResource month}" Style="{StaticResource textBlockTitle}"></TextBlock>
+                            <TextBlock x:Name="tblRevenueMonth" Text="{DynamicResource revenue}" Grid.Row="1" Style="{StaticResource textBlockTitle}"></TextBlock>
+                            <TextBlock x:Name="tblProfitMonth" Text="{DynamicResource profit}" Grid.Row="2" Style="{StaticResource textBlockTitle}"></TextBlock>
+                        </Grid>
+
+                        <Grid Grid.Column="1" x:Name="grdTableRevenueProfitMonth">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+        <mui:ModernProgressRing Margin="0,50,0,0" Grid.Column="1" x:Name="mprRevenueProfitMonth" Width="75" Height="75" VerticalAlignment="Center" HorizontalAlignment="Center" IsActive="False" Style="{StaticResource CircleProgressRingStyle}"></mui:ModernProgressRing>
+        <Image x:Name="imgSaveRevenueProfitMonthPNG" MouseDown="imgSaveRevenueProfitMonthPNG_MouseDown" Grid.Column="1" Margin="0 4 0 0" Source="pack://application:,,,/Resources/export_image.png" Stretch="None" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+    </Grid>
+</UserControl>

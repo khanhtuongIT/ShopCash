@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="CashierRegister.UserControls.UCConnectServer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <GroupBox Margin="0 5 5 0" Background="#FFFAFAFA">
+        <GroupBox.Header>
+            <TextBlock Text="{DynamicResource connect_server}" Style="{StaticResource Heading2}"></TextBlock>
+        </GroupBox.Header>
+        <StackPanel x:Name="spSQLServer" Margin="5 0 5 10" Orientation="Vertical">
+            <ProgressBar x:Name="pgbSQLServer" Height="10" Background="Transparent" IsIndeterminate="False" VerticalAlignment="Center"></ProgressBar>
+
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0 5 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!--<TextBlock Grid.Row="1" Text="{DynamicResource connect_to_server}" Foreground="RoyalBlue" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 30" Grid.ColumnSpan="2" Style="{StaticResource Heading1}"></TextBlock>-->
+
+                <TextBlock Grid.Row="0" Margin="0 0 0 5" Text="{DynamicResource servername}" FontWeight="Medium" VerticalAlignment="Center"></TextBlock>
+                <TextBox x:Name="txbServerName" Grid.Column="1" Grid.Row="0" Margin="0 0 0 5" Height="25" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="250"></TextBox>
+
+                <TextBlock Grid.Row="1" Margin="0 0 0 5" Text="{DynamicResource authentication}" FontWeight="Medium" VerticalAlignment="Center"></TextBlock>
+                <ComboBox x:Name="cboAuthentication" Grid.Row="1" Grid.Column="1" Margin="0 0 0 5" Height="25" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="250">
+                    <ComboBoxItem Content="{DynamicResource windows_authentication}"></ComboBoxItem>
+                    <ComboBoxItem Content="{DynamicResource sql_server_authentication}"></ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock Text="{DynamicResource username}" Margin="0 0 0 5" Grid.Row="2" FontWeight="Medium" VerticalAlignment="Center"></TextBlock>
+                <TextBox x:Name="txbUserName" Grid.Column="1" Height="25" Margin="0 0 0 5" Grid.Row="2" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="250"></TextBox>
+
+                <TextBlock Text="{DynamicResource password}" Margin="0 0 0 15" Grid.Row="3" FontWeight="Medium" VerticalAlignment="Center"></TextBlock>
+                <PasswordBox x:Name="pwbPassword" Grid.Column="1" Height="25" Margin="0 0 0 15" Grid.Row="3" VerticalAlignment="Center" VerticalContentAlignment="Center" Width="250"></PasswordBox>
+
+                <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right">
+                    <Grid>
+                        <Button x:Name="btnConnect" Content="{DynamicResource connect}" IsEnabled="False" Width="100"></Button>
+                        <Button x:Name="btnDisconnect" Content="{DynamicResource disconnect}" Visibility="Collapsed" Width="100"></Button>
+                    </Grid>
+                    <!--<Button x:Name="btnCancel" Margin="5 0 0 0" Content="{DynamicResource cancel}" IsEnabled="False" Width="80"></Button>-->
+                </StackPanel>
+            </Grid>
+            
+            <TextBlock x:Name="tblNotificationSQLServer" VerticalAlignment="Bottom" Foreground="Firebrick" Margin="0 10 0 0" TextWrapping="Wrap"></TextBlock>
+
+        </StackPanel>
+
+    </GroupBox>
+</UserControl>

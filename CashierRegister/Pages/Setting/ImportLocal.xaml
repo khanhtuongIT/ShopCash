@@ -1,0 +1,149 @@
+﻿<UserControl x:Class="CashierRegister.Pages.Setting.ImportLocal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             x:Name="test"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}" Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Background="WhiteSmoke">
+            <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="List all table of Checkout" Foreground="Firebrick" Style="{StaticResource Heading2}"></TextBlock>
+        </Grid>
+        <ScrollViewer Grid.Row="1" Margin="10,10,0,0">
+            <Grid VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <Grid VerticalAlignment="Center" Height="30">
+                    <TextBlock x:Name="tblTbCategory" Text="tb_Category" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbCategory" Click="btnTbCategory_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbCategory" VerticalAlignment="Center" HorizontalAlignment="Right" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table category"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom"></Separator>
+
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="1">
+                    <TextBlock x:Name="tblTbCustomer" Text="tb_Customer" VerticalAlignment="Center" ></TextBlock>
+                    <Button x:Name="btnTbCustomer" Click="btnTbCustomer_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbCustomer" VerticalAlignment="Center" HorizontalAlignment="Right" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table customer"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="1"></Separator>
+
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="3">
+                    <TextBlock x:Name="tblInputDetail" Text="tb_InputDetail" VerticalAlignment="Center" ></TextBlock>
+                    <Button x:Name="btnTbInputDetail" Click="btnTbInputDetail_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbInputDetail" VerticalAlignment="Center" HorizontalAlignment="Right" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table input detail"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="3"></Separator>
+                
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="4">
+                    <TextBlock x:Name="tblTbOrder" Text="tb_Order" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbOrder" Click="btnTbOrder_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbOrder" HorizontalAlignment="Right" VerticalAlignment="Center" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table order"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="4"></Separator>
+
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="5">
+                    <TextBlock x:Name="tblTbOrderDetail" Text="tb_OrderDetail" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbOrderDetail" Click="btnTbOrderDetail_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbOrderDetail" HorizontalAlignment="Right" VerticalAlignment="Center" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table order detail"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="5"></Separator>
+
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="6">
+                    <TextBlock x:Name="tblTbPayment" Text="Tb_Payment" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbPayment" Click="btnTbPayment_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbPayment" VerticalAlignment="Center" HorizontalAlignment="Right" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table payment"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="6"></Separator>
+
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="7">
+                    <TextBlock x:Name="tblTbProduct" Text="Tb_Product" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbProduct" Click="btnTbProduct_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbProduct" HorizontalAlignment="Right" VerticalAlignment="Center" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table product"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="7"></Separator>
+
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="8">
+                    <TextBlock x:Name="tblTbSalesperson" Text="Tb_Salesperson" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbSalesperson" Click="btnTbSalesperson_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbSalesperson" HorizontalAlignment="Right" VerticalAlignment="Center" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table salesperson"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="8"></Separator>
+
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="9">
+                    <TextBlock x:Name="tblTbSetting" Text="Tb_Setting" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbSetting" Click="btnTbSetting_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbSetting" HorizontalAlignment="Right" VerticalAlignment="Center" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table setting"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="9"></Separator>
+                
+                <Grid VerticalAlignment="Center" Height="30" Grid.Row="11">
+                    <TextBlock x:Name="tblTbUser" Text="Tb_User" VerticalAlignment="Center"></TextBlock>
+                    <Button x:Name="btnTbUser" Click="btnTbUser_Click" VerticalAlignment="Center" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+                        <Image x:Name="imgTbUser" HorizontalAlignment="Right" VerticalAlignment="Center" Width="15" Height="15"></Image>
+                        <Button.ToolTip>
+                            <TextBlock Text="Click to import table user"></TextBlock>
+                        </Button.ToolTip>
+                    </Button>
+                </Grid>
+                <Separator Background="AliceBlue" VerticalAlignment="Bottom" Grid.Row="11"></Separator>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

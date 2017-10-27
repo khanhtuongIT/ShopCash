@@ -1,0 +1,21 @@
+﻿<Application x:Class="CashierRegister.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.xaml" />
+                <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.Light.xaml"/>
+                <ResourceDictionary Source="/Style/ModernWindow.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Style/StyleDictionary.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Languages/English.xaml"></ResourceDictionary>
+                <!--<ResourceDictionary Source="/Assets/ModernUI.MyTheme.xaml"></ResourceDictionary>-->
+            </ResourceDictionary.MergedDictionaries>
+            <!--<SolidColorBrush x:Key="ButtonBackground" Color="Red" />-->
+            <SolidColorBrush x:Key="MenuText" Color="#00796B"></SolidColorBrush>
+            <SolidColorBrush x:Key="MenuTextHover" Color="#009688"></SolidColorBrush>
+            <SolidColorBrush x:Key="MenuTextSelected" Color="#004D40"></SolidColorBrush>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

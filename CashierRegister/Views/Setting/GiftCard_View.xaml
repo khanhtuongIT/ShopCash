@@ -1,0 +1,80 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Views.Setting.GiftCard_View"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  xmlns:viewModel = "clr-namespace:CashierRegister.ViewModel"
+                  xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                  xmlns:Helper ="clr-namespace:CashierRegister.Helpers"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="500"
+                  Title="{DynamicResource send_email}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+    <mui:ModernDialog.DataContext>
+        <viewModel:GiftCard_AddViewModel/>
+    </mui:ModernDialog.DataContext>
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding formLoadCmd}"></i:InvokeCommandAction>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Text="{DynamicResource from}" FontWeight="SemiBold" VerticalAlignment="Center" Margin="0 0 25 10"></TextBlock>
+        <TextBox x:Name="txbFrom" Text="{Binding FromEmail, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="25" VerticalContentAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="0 0 0 10"></TextBox>
+        <Image x:Name="imgFromSave" VerticalAlignment="Center" Margin="5 0 0 10" Width="24" Height="24" Grid.Column="2">
+            <Image.ToolTip>
+                <TextBlock Text="{DynamicResource save_email}"></TextBlock>
+            </Image.ToolTip>
+        </Image>
+
+        <TextBlock Text="{DynamicResource password}" FontWeight="SemiBold" VerticalAlignment="Center" Grid.Row="1" Margin="0 0 25 10"></TextBlock>
+        <PasswordBox x:Name="pwbPasssword" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Grid.Row="1" Margin="0 0 0 10" Helper:PasswordHelper.Attach="True" Helper:PasswordHelper.Password="{Binding FromPassword, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></PasswordBox>
+        <Image x:Name="imgPasswordSave" VerticalAlignment="Center" Grid.Row="1" Margin="5 0 0 10" Width="24" Height="24" Grid.Column="2">
+            <Image.ToolTip>
+                <TextBlock Text="{DynamicResource save_password}"></TextBlock>
+            </Image.ToolTip>
+        </Image>
+
+        <TextBlock Text="{DynamicResource to}" FontWeight="SemiBold" VerticalAlignment="Center" Grid.Row="2" Margin="0 0 0 10"></TextBlock>
+        <TextBox x:Name="txbTo" Text="{Binding ToEmail, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" Height="25" VerticalContentAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Margin="0 0 0 10" Grid.ColumnSpan="2"></TextBox>
+
+        <TextBlock Grid.Row="3" FontWeight="SemiBold" Text="{DynamicResource subject}" VerticalAlignment="Center" Margin="0 0 0 5"></TextBlock>
+        <TextBox x:Name="txbSubject" Text="{Binding SubjectEmail, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="0,0,0,10"></TextBox>
+
+        <RichTextBox x:Name="rtbMailBody" Margin="0 0 0 0" Height="200" AcceptsReturn="True" Grid.Row="4" Grid.ColumnSpan="3" Helper:RichTextBoxHelper.DocumentXaml="{Binding BodyEmail, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0"></Setter>
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
+
+        <CheckBox Content="{DynamicResource giftcard_sent_deliver}" Grid.Row="5" Grid.ColumnSpan="3" IsChecked="{Binding IsTick, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="0 5 0 0"></CheckBox>
+        <TextBlock Grid.Row="6" Grid.ColumnSpan="3" Text="{Binding Notify, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Margin="0, 5, 0, 0" Foreground="Red"></TextBlock>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.ColumnSpan="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0, 0, 0, 5">
+            <Button x:Name="muiBtnOK" Command="{Binding sendGiftCardToCmd}" Width="80" Content="{DynamicResource single_send}" Margin="0,0,5,0" Visibility="{Binding IsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Button>
+            <Button x:Name="muiBtnCancel" Width="80" Content="{DynamicResource cancel}" Command="{Binding sendEmailCloseWindowsCmd, Mode=OneWay}" Visibility="{Binding IsVisible, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Button>
+            <mui:ModernProgressRing x:Name="mprSend" Width="25" Height="25" IsActive="True" Visibility="{Binding EnableProgress, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource DoubleBounceProgressRingStyle}"></mui:ModernProgressRing>
+        </StackPanel>
+    </Grid>
+    
+</mui:ModernDialog>

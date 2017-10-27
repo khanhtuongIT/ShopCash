@@ -1,0 +1,62 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Pages.Setting.EditUser"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="350" MaxWidth="9999"
+                  Title="{DynamicResource edit_user}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+
+    <Grid VerticalAlignment="Top" Width="350">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource user_id}" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <TextBlock x:Name="tblID" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource username}" Grid.Row="1" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <TextBlock x:Name="tblName" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource email}" Grid.Row="2" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="txbEmail" MaxLength="100" Grid.Row="2" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></TextBox>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource address}" Grid.Row="3" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="txbAddress" MaxLength="250" Grid.Row="3" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></TextBox>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource password}" Grid.Row="4" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <PasswordBox x:Name="pwbPassword" MaxLength="100" Grid.Row="4" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></PasswordBox>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource confirm_password}" Grid.Row="5" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <PasswordBox x:Name="pwbConfirmPassword" MaxLength="100" Height="25" VerticalContentAlignment="Center" Grid.Row="5" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></PasswordBox>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource question}" Grid.Row="6" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="txbQuestion" MaxLength="200" Grid.Row="6" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></TextBox>
+
+        <TextBlock FontWeight="Medium" Text="{DynamicResource answer}" Grid.Row="7" Margin="0,0,0,10" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="txbAnswer" MaxLength="200" Grid.Row="7" Height="25" VerticalContentAlignment="Center" Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Center"></TextBox>
+        
+        <StackPanel VerticalAlignment="Top" Orientation="Horizontal" Grid.Row="8" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+            <Button x:Name="btnOK" Click="btnOK_Click" Content="{DynamicResource ok}" Width="80"></Button>
+            <Button x:Name="btnCancel" Click="btnCancel_Click" Content="{DynamicResource cancel}" Width="80" Margin="5,0,0,0"></Button>
+        </StackPanel>
+        
+        <TextBlock x:Name="tblNotification" Grid.Row="9" Margin="0,20,0,0" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Foreground="Firebrick"></TextBlock>
+    </Grid>
+</mui:ModernDialog>

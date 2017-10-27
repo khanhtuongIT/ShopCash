@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="CashierRegister.UserControls.UCProduct"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Border
+        BorderThickness="0" BorderBrush="Black" Width="175" Height="130"
+        CornerRadius="3 3 3 3" Margin="10">
+        <Border.Effect>
+            <DropShadowEffect Color="Black"  Direction="225" BlurRadius="6.5" ShadowDepth="0.5"></DropShadowEffect>
+        </Border.Effect>
+        <Grid>
+            <Grid.OpacityMask>
+                <VisualBrush Visual="{Binding ElementName=clipMask}" Stretch="None" />
+            </Grid.OpacityMask>
+            <Border x:Name="clipMask" Background="White" BorderThickness="0" CornerRadius="3 3 3 3" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Background="Transparent">
+                    <Image VerticalAlignment="Top" HorizontalAlignment="Center" Source="{Binding Path=BitmapImage}" Stretch="Uniform"></Image>
+                    <Grid VerticalAlignment="Top" HorizontalAlignment="Right">
+                        <Image Source="{Binding Path=Image_Iventory_Status}" Width="45" Height="32" Stretch="Fill" VerticalAlignment="Center" Margin="0 3 3 0"></Image>
+                        <TextBlock Text="{Binding Path=InventoryCount}" Margin="0 2 3 0" Foreground="White" FontWeight="Medium" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                    </Grid>
+                </Grid>
+                
+                <Separator Grid.Row="1" Background="#FF616161"></Separator>
+                
+                <Grid Background="Transparent" VerticalAlignment="Center" Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{Binding Path=StrShortName}" FontWeight="Medium" Margin="3 0 0 0" HorizontalAlignment="Left"></TextBlock>
+                    
+                    <TextBlock Text="{Binding Path=StrPrice}" Margin="0 0 3 0" Grid.Column="1" HorizontalAlignment="Right" FontWeight="Medium" Foreground="Firebrick"></TextBlock>
+                </Grid>
+                <Grid.Style>
+                    <Style TargetType="Grid">
+                        <Setter Property="Background" Value="Transparent"></Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="WhiteSmoke"></Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
+            </Grid>
+            
+        </Grid>
+    </Border>
+</UserControl>

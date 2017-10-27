@@ -1,0 +1,104 @@
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF_v3\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\WPF\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+D:\Projects\WPF\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\WPF\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\WPF\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+G:\CashierRegister_SQLite\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+G:\CashierRegister_SQLite\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+G:\CashierRegister_SQLite\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+G:\CashierRegister_SQLite\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+G:\CashierRegister_SQLite\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+F:\Visual studio\Visual C#\projects\CashierRegister_SQLite\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\CashierRegister_SQLite\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\CashierRegister_SQLite\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\CashierRegister_SQLite\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\CashierRegister_SQLite\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+C:\Users\Tuan\Desktop\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\MUI\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+E:\Visual studio\Visual C#\projects\paging\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+D:\Projects\paging\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\paging\New folder\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\Windows desktop\MUI\Cash register\CashierRegister_New\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+E:\Projects\Windows desktop\MUI\Cash register\CashRegister_Coding_2_final\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Coding\CashRegister_Coding_final\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\CashRegister_Basic_15_6_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+D:\Projects\WD\MUI\Cash Register\CashRegister_Building\Update\Send\Temp\CashRegister_Basic_6_17_2016_Edit_for_amazon\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+U:\Project\WPF\CashRegister_Basic_10_25_2016\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\bin\Debug\System.IO.Compression.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\bin\Debug\System.IO.Compression.FileSystem.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\bin\Debug\System.Shim.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.dll
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.pdb
+C:\SSD DATA\CashRegister_Basic\CashierRegisterEntity\obj\Debug\CashierRegisterEntity.csprojResolveAssemblyReference.cache

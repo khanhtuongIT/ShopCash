@@ -1,0 +1,97 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Views.Setting.GiftCard_Tools"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  xmlns:viewModel = "clr-namespace:CashierRegister.ViewModel"
+                  xmlns:Helpers="clr-namespace:CashierRegister.Helpers"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="300"
+                  Title="{DynamicResource tools_giftcard}">
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+    <mui:ModernDialog.DataContext>
+        <viewModel:GiftCard_AddViewModel/>
+    </mui:ModernDialog.DataContext>
+    <mui:ModernDialog.Resources>
+        <Helpers:EnumMatchToBooleanConverter x:Key="ConverterBool"></Helpers:EnumMatchToBooleanConverter>
+    </mui:ModernDialog.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="140"></RowDefinition>
+            <RowDefinition Height="220"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <CheckBox Content="Delete all cards that has been used" Margin="0, 0,0,10" Visibility="Collapsed"></CheckBox>
+        
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="0,0,0,0" Grid.Row="1">
+            <GroupBox Margin="0 5 0 0">
+                <GroupBox.Header>
+                    <TextBlock Text="{DynamicResource gift_general}" Style="{StaticResource Heading2}"></TextBlock>
+                </GroupBox.Header>
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <CheckBox Content="{DynamicResource tool_del_expired_cards}" Margin="0 5 0 5" IsChecked="{Binding GenaralExpired, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="chkExpired"></CheckBox>
+                    <CheckBox Content="{DynamicResource tool_del_cards_used}" Margin="0 5 0 5" Grid.Row="1" IsChecked="{Binding GenaralUsed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="chkUsed"></CheckBox>
+                    <CheckBox Content="{DynamicResource tool_del_deliver}" Margin="0 5 0 5" Grid.Row="2" IsChecked="{Binding GeneralDeliver, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="chkDeliver">
+                    </CheckBox>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" Grid.Row="2" Margin="0,0,0,0">
+            <GroupBox Margin="0 5 0 0">
+                <GroupBox.Header>
+                    <TextBlock Text="{DynamicResource tool_del_cards_created}" Style="{StaticResource Heading2}"></TextBlock>
+                </GroupBox.Header>
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"></ColumnDefinition>
+                        <ColumnDefinition Width="120"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <RadioButton Content="{DynamicResource tool_none}" Margin="0 0 0 10" IsChecked="{Binding ToolCreated, Converter={StaticResource ConverterBool}, ConverterParameter={x:Static viewModel:toolCreated.None}}"></RadioButton>
+
+                    <RadioButton Content="{DynamicResource tool_on_date}" Margin="0 -5 0 0" Grid.Row="1" IsChecked="{Binding ToolCreated, Converter={StaticResource ConverterBool}, ConverterParameter={x:Static viewModel:toolCreated.On}}"></RadioButton>
+                    <DatePicker x:Name="db_createdOn" Margin="0,0,0,7" Grid.Column="1" Grid.Row="1" Text="{Binding ToolCreatedOn, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding EnableOn, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DatePicker>
+
+                    <RadioButton Grid.Row="2" Content="{DynamicResource tool_beforedate}" Margin="0 -5 0 0" IsChecked="{Binding ToolCreated, Converter={StaticResource ConverterBool}, ConverterParameter={x:Static viewModel:toolCreated.Before}}"></RadioButton>
+                    <DatePicker x:Name="db_createdBefore" Margin="0,0,0,7" Grid.Column="1" Grid.Row="2" Text="{Binding ToolCreatedBefore, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding EnableBefore, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DatePicker>
+
+                    <RadioButton Grid.Row="3" Content="{DynamicResource tool_afterdate}" Margin="0 -5 0 0" IsChecked="{Binding ToolCreated, Converter={StaticResource ConverterBool}, ConverterParameter={x:Static viewModel:toolCreated.After}}"></RadioButton>
+                    <DatePicker x:Name="db_createdAfter" Margin="0,0,0,7" Grid.Column="1" Grid.Row="3" Text="{Binding ToolCreatedAfter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding EnableAfter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DatePicker>
+
+                    <RadioButton Grid.Row="4" Content="{DynamicResource tool_betweendate}" Margin="0 -5 0 0" IsChecked="{Binding ToolCreated, Converter={StaticResource ConverterBool}, ConverterParameter={x:Static viewModel:toolCreated.Between}}"></RadioButton>
+                    <DatePicker x:Name="db_createdStart" Margin="0,0,0,7" Grid.Column="1" Grid.Row="4" Text="{Binding ToolCreatedStart, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding EnableBetween, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DatePicker>
+                    <TextBlock Text="{DynamicResource giftcard_single_and}" Margin="10 5 10 0" Grid.Row="4" Grid.Column="2"></TextBlock>
+                    <DatePicker x:Name="db_createdEnd" Margin="0,0,0,7" Grid.Column="3" Grid.Row="4" Text="{Binding ToolCreatedEnd, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding EnableBetween, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DatePicker>
+                    
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+        
+        <TextBlock Text="{Binding Notify}" VerticalAlignment="Center" Margin="5,0,0,15" Foreground="Firebrick" Grid.Row="3"></TextBlock>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 10, 0, 0">
+            <Button x:Name="muiBtnOK" Command="{Binding toolGiftCardCmd}" Width="80" Content="{DynamicResource ok}" Margin="0,0,5,0" ></Button>
+            <Button x:Name="muiBtnCancel" Width="80" Content="{DynamicResource cancel}" Command="{Binding toolCloseWindowsCmd, Mode=OneWay}"></Button>
+        </StackPanel>
+    </Grid>
+    
+</mui:ModernDialog>

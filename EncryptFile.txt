@@ -1,0 +1,29 @@
+- ClientFolderInfo: folderid on google drive (sqlite->sqlserver).
+- EncryptReg: register app infor (customer name & register key).
+- sqltype: contain server type information
+
+*Note
+
+- Decimal separator
++ 0: dot
++ 1: comma
+
+- Database type
++ true: sql server
++ false: sqlite
+
+ec_tb_pro.Cost.ToString(new CultureInfo("en-US"))
+if (double.TryParse(txbPrice.Text, System.Globalization.NumberStyles.AllowDecimalPoint, Properties.Settings.Default.decimalSeparator == 0 ? new System.Globalization.CultureInfo("en-US") : new System.Globalization.CultureInfo("fr-FR"), out price_temp) == false || price_temp.ToString().Length > 12)
+product.Cost = Math.Round(Convert.ToDecimal(txbCost.Text, Properties.Settings.Default.decimalSeparator == 0 ? new System.Globalization.CultureInfo("en-US") : new System.Globalization.CultureInfo("fr-FR")), 2);
+product.Price = Math.Round(Convert.ToDecimal(txbPrice.Text, Properties.Settings.Default.decimalSeparator == 0 ? new System.Globalization.CultureInfo("en-US") : new System.Globalization.CultureInfo("fr-FR")), 2);
+
+
+https://msdn.microsoft.com/en-us/library/system.globalization.numberformatinfo.numbergroupseparator(v=vs.110).aspx
+            double d1 = 176399.02567;
+            System.Globalization.NumberFormatInfo numFor = new System.Globalization.CultureInfo("en-US", false).NumberFormat;
+            //numFor.NumberDecimalSeparator = ",";
+            numFor.NumberGroupSeparator = ",";
+            numFor.NumberDecimalDigits = 3;
+            var v = d1.ToString("N", numFor);
+
+

@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A97EAC57-A288-467A-B0E1-17BCD1840DCB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CashierRegister</RootNamespace>
+    <AssemblyName>Cash Register</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>6ab88dbc</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>cash_register_no_background.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CashierRegisterBUS, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CashierRegisterBUS\bin\Debug\CashierRegisterBUS.dll</HintPath>
+    </Reference>
+    <Reference Include="CashierRegisterDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CashierRegisterDAL\bin\Debug\CashierRegisterDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="CashierRegisterEntity, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CashierRegisterEntity\bin\Debug\CashierRegisterEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip, Version=1.10.1.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.10.1\lib\net20\DotNetZip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FirstFloor.ModernUI, Version=1.0.8.0, Culture=neutral, PublicKeyToken=bc9b0c37bf06c6a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\ModernUI.WPF.1.0.8\lib\net45\FirstFloor.ModernUI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis">
+      <HintPath>..\packages\Google.Apis.1.9.0\lib\net40\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth">
+      <HintPath>..\packages\Google.Apis.Auth.1.9.0\lib\net40\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices">
+      <HintPath>..\packages\Google.Apis.Auth.1.9.0\lib\net40\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core">
+      <HintPath>..\packages\Google.Apis.Core.1.9.0\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Drive.v2">
+      <HintPath>..\packages\Google.Apis.Drive.v2.1.9.0.1540\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Drive.v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices">
+      <HintPath>..\packages\Google.Apis.1.9.0\lib\net40\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.11\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.11\lib\itextsharp.xmlworker.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.InfoPath, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Microsoft.Office.Interop.InfoPath.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="ShowAnimation">
+      <HintPath>DLL\ShowAnimation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.94.0\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.94.0\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.94.1\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Shim">
+      <HintPath>..\packages\System.Shim.1.0.0.1\lib\net40-client\System.Shim.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit">
+      <HintPath>..\packages\WPFToolkit.DataVisualization.3.5.50211.1\lib\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Input.Toolkit">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\System.Windows.Controls.Input.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Layout.Toolkit">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\System.Windows.Controls.Layout.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WPFToolkit">
+      <HintPath>..\packages\WPFToolkit.3.5.50211.1\lib\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Zlib.Portable">
+      <HintPath>..\packages\Zlib.Portable.1.10.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Assets\Link.cs" />
+    <Compile Include="Helpers\CustomImageTagProcessor.cs" />
+    <Compile Include="Helpers\Ean13Barcode.cs" />
+    <Compile Include="Helpers\EnumMatchToBooleanConverter.cs" />
+    <Compile Include="Helpers\FocusExtension.cs" />
+    <Compile Include="Helpers\IRequestFocus.cs" />
+    <Compile Include="Helpers\ModelBase.cs" />
+    <Compile Include="Helpers\Pagination.cs" />
+    <Compile Include="Helpers\PasswordHelper.cs" />
+    <Compile Include="Helpers\PCPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\RelayCommand.cs" />
+    <Compile Include="Helpers\SqlServerToSQLite.cs" />
+    <Compile Include="Helpers\TextBoxMaskBehavior.cs" />
+    <Compile Include="Helpers\ViewModelLocator.cs" />
+    <Compile Include="Helpers\VisibilityConverter.cs" />
+    <Compile Include="Helpers\WebBrowserHelper.cs" />
+    <Compile Include="Model\GiftCardModel.cs" />
+    <Compile Include="Model\Home\UserModel.cs" />
+    <Compile Include="Model\PaymentModel.cs" />
+    <Compile Include="Model\Setting\TableModel.cs" />
+    <Compile Include="Model\ShellOutModel.cs" />
+    <Compile Include="Model\UpgradeDatabase.cs" />
+    <Compile Include="Pages\Chart\RevenueProfitChart.xaml.cs">
+      <DependentUpon>RevenueProfitChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ConnectServer.xaml.cs">
+      <DependentUpon>ConnectServer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CopyRight\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CopyRight\SecurityManager.cs" />
+    <Compile Include="Pages\Home\AccessSecureApp.xaml.cs">
+      <DependentUpon>AccessSecureApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\ChangeInfoOrder.xaml.cs">
+      <DependentUpon>ChangeInfoOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\ConfirmLogout.xaml.cs">
+      <DependentUpon>ConfirmLogout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\DeleteOrderDetail.xaml.cs">
+      <DependentUpon>DeleteOrderDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\DiscountDetail.xaml.cs">
+      <DependentUpon>DiscountDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\Discount.xaml.cs">
+      <DependentUpon>Discount.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\EmailSent.xaml.cs">
+      <DependentUpon>EmailSent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\FindCustomer.xaml.cs">
+      <DependentUpon>FindCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\Logout.xaml.cs">
+      <DependentUpon>Logout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\PayCash.xaml.cs">
+      <DependentUpon>PayCash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\PrintOptions.xaml.cs">
+      <DependentUpon>PrintOptions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\ReportViewer.xaml.cs">
+      <DependentUpon>ReportViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\SalespersonShow.xaml.cs">
+      <DependentUpon>SalespersonShow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\SendEmail.xaml.cs">
+      <DependentUpon>SendEmail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\PayOther.xaml.cs">
+      <DependentUpon>PayOther.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\Quantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Home\Quantity.Designer.cs">
+      <DependentUpon>Quantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\SalespersonLogin.xaml.cs">
+      <DependentUpon>SalespersonLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\SelectSalesperson.xaml.cs">
+      <DependentUpon>SelectSalesperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LoginGuide\AdminGuide.xaml.cs">
+      <DependentUpon>AdminGuide.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LoginGuide\ChangeInfo.xaml.cs">
+      <DependentUpon>ChangeInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LoginGuide\InventoryGuide.xaml.cs">
+      <DependentUpon>InventoryGuide.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LoginGuide\ReportGuide.xaml.cs">
+      <DependentUpon>ReportGuide.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Notification.xaml.cs">
+      <DependentUpon>Notification.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\Customer.xaml.cs">
+      <DependentUpon>Customer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\DataSets\DS_OrderDetail.cs">
+      <DependentUpon>DS_OrderDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\DataSets\DS_OrderDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_OrderDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\DataSets\DS_Orders.cs">
+      <DependentUpon>DS_Orders.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\DataSets\DS_Orders.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_Orders.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\DeleteOrderDetail.xaml.cs">
+      <DependentUpon>DeleteOrderDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\DeleteOrder.xaml.cs">
+      <DependentUpon>DeleteOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\OrderDetail.xaml.cs">
+      <DependentUpon>OrderDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\Payment.xaml.cs">
+      <DependentUpon>Payment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\Report.xaml.cs">
+      <DependentUpon>Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\ReportDetailPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Report\ReportDetailPrint.Designer.cs">
+      <DependentUpon>ReportDetailPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\All.xaml.cs">
+      <DependentUpon>All.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\ReportGeneralPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Report\ReportGeneralPrint.Designer.cs">
+      <DependentUpon>ReportGeneralPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\Salesperson.xaml.cs">
+      <DependentUpon>Salesperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Report\StoryboardLibrary.cs" />
+    <Compile Include="Pages\LoginGuide\FirstTimeLoginGuide.xaml.cs">
+      <DependentUpon>FirstTimeLoginGuide.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\Languages.xaml.cs">
+      <DependentUpon>Languages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Account.xaml.cs">
+      <DependentUpon>Account.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\AddCategory.xaml.cs">
+      <DependentUpon>AddCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Connecting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Setting\Connecting.Designer.cs">
+      <DependentUpon>Connecting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeletePayment.xaml.cs">
+      <DependentUpon>DeletePayment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\EditPayment.xaml.cs">
+      <DependentUpon>EditPayment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\AddPayment.xaml.cs">
+      <DependentUpon>AddPayment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\AppSetting.xaml.cs">
+      <DependentUpon>AppSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\BackupSQLServer.xaml.cs">
+      <DependentUpon>BackupSQLServer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteRestoreLocal_Confirm.xaml.cs">
+      <DependentUpon>DeleteRestoreLocal_Confirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\InputHistory.xaml.cs">
+      <DependentUpon>InputHistory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Logs.xaml.cs">
+      <DependentUpon>Logs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\RestartUndoBackup.xaml.cs">
+      <DependentUpon>RestartUndoBackup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\RestoreRestoreLocal_Confirm.xaml.cs">
+      <DependentUpon>RestoreRestoreLocal_Confirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\UndoRestoreLocal.xaml.cs">
+      <DependentUpon>UndoRestoreLocal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\BackupLocal_Confirm.xaml.cs">
+      <DependentUpon>BackupLocal_Confirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteLocal_Confirm.xaml.cs">
+      <DependentUpon>DeleteLocal_Confirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\RestoreLocal_Confirm.xaml.cs">
+      <DependentUpon>RestoreLocal_Confirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\ConfirmQuestion.xaml.cs">
+      <DependentUpon>ConfirmQuestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\CreateNewPassword.xaml.cs">
+      <DependentUpon>CreateNewPassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\EditCategory.xaml.cs">
+      <DependentUpon>EditCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\ChangePassword.xaml.cs">
+      <DependentUpon>ChangePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteCurrency.xaml.cs">
+      <DependentUpon>DeleteCurrency.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\EditCurrency.xaml.cs">
+      <DependentUpon>EditCurrency.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\AddCurrency.xaml.cs">
+      <DependentUpon>AddCurrency.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\BackupGDrive.xaml.cs">
+      <DependentUpon>BackupGDrive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Currency.xaml.cs">
+      <DependentUpon>Currency.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteCustomer.xaml.cs">
+      <DependentUpon>DeleteCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\EditUser.xaml.cs">
+      <DependentUpon>EditUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\BackupLocal.xaml.cs">
+      <DependentUpon>BackupLocal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\ImportLocal.xaml.cs">
+      <DependentUpon>ImportLocal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\RestoreGDrive.xaml.cs">
+      <DependentUpon>RestoreGDrive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteGDrive.xaml.cs">
+      <DependentUpon>DeleteGDrive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\EditCustomer.xaml.cs">
+      <DependentUpon>EditCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\AddCustomer.xaml.cs">
+      <DependentUpon>AddCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Customer.xaml.cs">
+      <DependentUpon>Customer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\EditProduct.xaml.cs">
+      <DependentUpon>EditProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\AddProduct.xaml.cs">
+      <DependentUpon>AddProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteProduct.xaml.cs">
+      <DependentUpon>DeleteProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteSalesperson.xaml.cs">
+      <DependentUpon>DeleteSalesperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\EditSalesperson.xaml.cs">
+      <DependentUpon>EditSalesperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\AddSalesperson.xaml.cs">
+      <DependentUpon>AddSalesperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\DeleteCategory.xaml.cs">
+      <DependentUpon>DeleteCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\ExportLocal.xaml.cs">
+      <DependentUpon>ExportLocal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\ImportExportGDrive.xaml.cs">
+      <DependentUpon>ImportExportGDrive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Product.xaml.cs">
+      <DependentUpon>Product.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Salesperson.xaml.cs">
+      <DependentUpon>Salesperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\BackupDB.xaml.cs">
+      <DependentUpon>BackupDB.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Payment.xaml.cs">
+      <DependentUpon>Payment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\User.xaml.cs">
+      <DependentUpon>User.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\waiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\Setting\waiting.Designer.cs">
+      <DependentUpon>waiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Statistic\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Sql2Sqlite\ColumnSchema.cs" />
+    <Compile Include="Sql2Sqlite\DatabaseSchema.cs" />
+    <Compile Include="Sql2Sqlite\ForeignKeySchema.cs" />
+    <Compile Include="Sql2Sqlite\IndexSchema.cs" />
+    <Compile Include="Sql2Sqlite\TableSchema.cs" />
+    <Compile Include="Sql2Sqlite\TriggerBuilder.cs" />
+    <Compile Include="Sql2Sqlite\TriggerSchema.cs" />
+    <Compile Include="Sql2Sqlite\ViewSchema.cs" />
+    <Compile Include="StaticClass\ExcelUtilityClass.cs" />
+    <Compile Include="StaticClass\GeneralClass.cs" />
+    <Compile Include="StaticClass\PayMoney.cs" />
+    <Compile Include="StaticClass\StoryboardLibrary.cs" />
+    <Compile Include="UserControls\BCButtonAscDesc.xaml.cs">
+      <DependentUpon>BCButtonAscDesc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCButtonOnOff.xaml.cs">
+      <DependentUpon>UCButtonOnOff.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCConnectServer.xaml.cs">
+      <DependentUpon>UCConnectServer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCProduct.xaml.cs">
+      <DependentUpon>UCProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\GiftCardViewModel.cs" />
+    <Compile Include="ViewModel\GiftCard_AddViewModel.cs" />
+    <Compile Include="ViewModel\Home\LoginSystem_VM.cs" />
+    <Compile Include="ViewModel\PaymentScanViewModel.cs" />
+    <Compile Include="ViewModel\PaymentViewModel.cs" />
+    <Compile Include="ViewModel\Setting\ImExportDataBase_VM.cs" />
+    <Compile Include="ViewModel\Setting\ImportCategory_VM.cs" />
+    <Compile Include="ViewModel\Setting\ImportCustomer_VM.cs" />
+    <Compile Include="ViewModel\Setting\ImportProduct_VM.cs" />
+    <Compile Include="ViewModel\ShellOutViewModel.cs" />
+    <Compile Include="Views\AddPaymentToPayCash.xaml.cs">
+      <DependentUpon>AddPaymentToPayCash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\LoginSystem.xaml.cs">
+      <DependentUpon>LoginSystem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment.xaml.cs">
+      <DependentUpon>Payment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaymentScan.xaml.cs">
+      <DependentUpon>PaymentScan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\GiftCard.xaml.cs">
+      <DependentUpon>GiftCard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\GiftCard_Add.xaml.cs">
+      <DependentUpon>GiftCard_Add.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\GiftCard_Edit.xaml.cs">
+      <DependentUpon>GiftCard_Edit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\GiftCard_PreviewPrint.xaml.cs">
+      <DependentUpon>GiftCard_PreviewPrint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\GiftCard_Tools.xaml.cs">
+      <DependentUpon>GiftCard_Tools.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\GiftCard_View.xaml.cs">
+      <DependentUpon>GiftCard_View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\ImExportDataBase.xaml.cs">
+      <DependentUpon>ImExportDataBase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\ImportCategory.xaml.cs">
+      <DependentUpon>ImportCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\ImportCustomer.xaml.cs">
+      <DependentUpon>ImportCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\ImportProduct.xaml.cs">
+      <DependentUpon>ImportProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShellOut.xaml.cs">
+      <DependentUpon>ShellOut.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Assets\ModernTab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assets\ModernUI.MyTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Languages\Czech.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Languages\English.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Languages\Vietnamese.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\Chart\RevenueProfitChart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ConnectServer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CopyRight\Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\AccessSecureApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\ChangeInfoOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\ConfirmLogout.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Home\DeleteOrderDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\DiscountDetail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Home\Discount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\EmailSent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\FindCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\Logout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\PayCash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\PrintOptions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\ReportViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\SalespersonShow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\SendEmail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\PayOther.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\SalespersonLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home\SelectSalesperson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\LoginGuide\AdminGuide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\LoginGuide\ChangeInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\LoginGuide\InventoryGuide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\LoginGuide\ReportGuide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Notification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\Customer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\DeleteOrderDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\DeleteOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\OrderDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\Payment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\All.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Report\Salesperson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Settings\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Pages\Home\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Pages\Settings\Appearance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Pages\Settings\Appearance.xaml.cs">
+      <DependentUpon>Appearance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\AppearanceViewModel.cs" />
+    <Page Include="Pages\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Pages\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Setting\Setting.xaml.cs">
+      <DependentUpon>Setting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Page Include="Pages\LoginGuide\FirstTimeLoginGuide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Settings\Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Settings\Languages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\AddCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\DeletePayment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\EditPayment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\AddPayment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\AppSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\BackupSQLServer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\DeleteRestoreLocal_Confirm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\InputHistory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Logs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\RestartUndoBackup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\RestoreRestoreLocal_Confirm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\UndoRestoreLocal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\BackupLocal_Confirm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\DeleteLocal_Confirm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\RestoreLocal_Confirm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\ConfirmQuestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\CreateNewPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\EditCategory.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\ChangePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\DeleteCurrency.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\EditCurrency.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\AddCurrency.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\BackupGDrive.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Currency.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\DeleteCustomer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\EditUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\BackupLocal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\ImportLocal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\RestoreGDrive.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\DeleteGDrive.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\EditCustomer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\AddCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Customer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\EditProduct.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\AddProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\DeleteProduct.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\DeleteSalesperson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\EditSalesperson.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\AddSalesperson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\DeleteCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\ExportLocal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\ImportExportGDrive.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Product.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Salesperson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Setting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\BackupDB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Setting\Payment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Setting\User.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Statistic\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\ModernWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Style\StyleDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\BCButtonAscDesc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\UCButtonOnOff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\UCConnectServer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\UCProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddPaymentToPayCash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Home\LoginSystem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Payment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PaymentScan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\GiftCard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\GiftCard_Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\GiftCard_Edit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\GiftCard_PreviewPrint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\GiftCard_Tools.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\GiftCard_View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\ImExportDataBase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\ImportCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\ImportCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Setting\ImportProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ShellOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\Report\DataSets\DS_OrderDetail.xsc">
+      <DependentUpon>DS_OrderDetail.xsd</DependentUpon>
+    </None>
+    <None Include="Pages\Report\DataSets\DS_OrderDetail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_OrderDetail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Pages\Report\DataSets\DS_OrderDetail.xss">
+      <DependentUpon>DS_OrderDetail.xsd</DependentUpon>
+    </None>
+    <None Include="Pages\Report\DataSets\DS_Orders.xsc">
+      <DependentUpon>DS_Orders.xsd</DependentUpon>
+    </None>
+    <None Include="Pages\Report\DataSets\DS_Orders.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_Orders.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Pages\Report\DataSets\DS_Orders.xss">
+      <DependentUpon>DS_Orders.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Resource Include="Resources\segmdl2.ttf" />
+    <Resource Include="Resources\connecting.gif" />
+    <Resource Include="Resources\format.png" />
+    <Resource Include="Resources\show.png" />
+    <Resource Include="Resources\log.png" />
+    <Resource Include="Resources\export_image.png" />
+    <Resource Include="Resources\img_amazon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img_appstore.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img_googleplay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img_microsoft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Ignore.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Print_black.png" />
+    <Resource Include="Resources\send_to.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\date_time_format.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\login_sell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="script1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="script2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="script3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="script4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\Home\Quantity.resx">
+      <DependentUpon>Quantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Report\ReportDetailPrint.resx">
+      <DependentUpon>ReportDetailPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Report\ReportGeneralPrint.resx">
+      <DependentUpon>ReportGeneralPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Report\rpt_OrderDetails.rdlc" />
+    <EmbeddedResource Include="Pages\Report\rpt_Orders.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Setting\Connecting.resx">
+      <DependentUpon>Connecting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Setting\waiting.resx">
+      <DependentUpon>waiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cash_register_no_background.ico" />
+    <Content Include="Microsoft.Office.Interop.Excel.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.Office.Interop.InfoPath.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.ReportViewer.Common.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.ReportViewer.ProcessingObjectModel.DLL">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.ReportViewer.WinForms.DLL">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.SqlServer.Types.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\default_01_default_02_default_03_default.png" />
+    <Resource Include="Resources\cash_register_no_background.ico" />
+    <Resource Include="Resources\af_add.png" />
+    <Resource Include="Resources\af_center.png" />
+    <Resource Include="Resources\af_close.png" />
+    <Resource Include="Resources\af_delete_category.png" />
+    <Resource Include="Resources\af_edit_category.png" />
+    <Resource Include="Resources\af_next.png" />
+    <Resource Include="Resources\af_next_end.png" />
+    <Resource Include="Resources\af_open.png" />
+    <Resource Include="Resources\af_previous.png" />
+    <Resource Include="Resources\af_previous_first.png" />
+    <Resource Include="Resources\all.png" />
+    <Resource Include="Resources\arrow_left.png" />
+    <Resource Include="Resources\arrow_right.png" />
+    <Resource Include="Resources\be_add.png" />
+    <Resource Include="Resources\be_center.png" />
+    <Resource Include="Resources\be_close.png" />
+    <Resource Include="Resources\be_delete_category.png" />
+    <Resource Include="Resources\be_edit_category.png" />
+    <Resource Include="Resources\be_next.png" />
+    <Resource Include="Resources\be_next_end.png" />
+    <Resource Include="Resources\be_open.png" />
+    <Resource Include="Resources\be_previous.png" />
+    <Resource Include="Resources\be_previous_first.png" />
+    <Resource Include="Resources\bottom_arrow.png" />
+    <Resource Include="Resources\circle.png" />
+    <Resource Include="Resources\circle_focus.png" />
+    <Resource Include="Resources\circle_focus2.png" />
+    <Resource Include="Resources\circle_focus_year.png" />
+    <Resource Include="Resources\circle_next.png" />
+    <Resource Include="Resources\circle_next_.png" />
+    <Resource Include="Resources\circle_previous.png" />
+    <Resource Include="Resources\circle_previous_.png" />
+    <Resource Include="Resources\circle_year.png" />
+    <Resource Include="Resources\close.png" />
+    <Resource Include="Resources\colspan.png" />
+    <Resource Include="Resources\current_language.png" />
+    <Resource Include="Resources\database_undo.png" />
+    <Resource Include="Resources\date_month_year.png" />
+    <Resource Include="Resources\delete.png" />
+    <Resource Include="Resources\delete_orderdetail.png" />
+    <Resource Include="Resources\edit.png" />
+    <Resource Include="Resources\edit_dis.png" />
+    <Resource Include="Resources\failed.png" />
+    <Resource Include="Resources\guide_arrow_right.png" />
+    <Resource Include="Resources\history.png" />
+    <Resource Include="Resources\import.png" />
+    <Resource Include="Resources\Import_product.png" />
+    <Resource Include="Resources\inventory_status.png" />
+    <Resource Include="Resources\language.png" />
+    <Resource Include="Resources\login.png" />
+    <Resource Include="Resources\login_guide\a1.png" />
+    <Resource Include="Resources\login_guide\a2.png" />
+    <Resource Include="Resources\login_guide\change_info.png" />
+    <Resource Include="Resources\login_guide\i2.png" />
+    <Resource Include="Resources\login_guide\info.png" />
+    <Resource Include="Resources\login_guide\r2.png" />
+    <Resource Include="Resources\month_year.png" />
+    <Resource Include="Resources\ok.png" />
+    <Resource Include="Resources\qrcode.png" />
+    <Resource Include="Resources\restore.png" />
+    <Resource Include="Resources\save.png" />
+    <Resource Include="Resources\search.png" />
+    <Resource Include="Resources\select.png" />
+    <Resource Include="Resources\select_customer.png" />
+    <Resource Include="Resources\up_arrow.png" />
+    <Resource Include="Resources\ViewDetails.png" />
+    <Resource Include="Resources\warning.png" />
+    <Resource Include="Resources\year.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DLL\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

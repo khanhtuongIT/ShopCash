@@ -1,0 +1,20 @@
+﻿Cash Register
+
+
+winexe
+C#
+.cs
+C:\SSD DATA\CashRegister_Basic\CashierRegister\obj\Debug\
+CashierRegister
+none
+false
+DEBUG;TRACE
+C:\SSD DATA\CashRegister_Basic\CashierRegister\App.xaml
+118-2120105534
+11-1973615738
+176-2067785431
+117713098495
+Assets\ModernTab.xaml;Assets\ModernUI.MyTheme.xaml;Languages\Czech.xaml;Languages\English.xaml;Languages\Vietnamese.xaml;MainWindow.xaml;Pages\Chart\RevenueProfitChart.xaml;Pages\ConnectServer.xaml;Pages\CopyRight\Register.xaml;Pages\Home\AccessSecureApp.xaml;Pages\Home\ChangeInfoOrder.xaml;Pages\Home\ConfirmLogout.xaml;Pages\Home\DeleteOrderDetail.xaml;Pages\Home\DiscountDetail.xaml;Pages\Home\Discount.xaml;Pages\Home\EmailSent.xaml;Pages\Home\FindCustomer.xaml;Pages\Home\Home.xaml;Pages\Home\Login.xaml;Pages\Home\Logout.xaml;Pages\Home\PayCash.xaml;Pages\Home\PrintOptions.xaml;Pages\Home\ReportViewer.xaml;Pages\Home\SalespersonShow.xaml;Pages\Home\SendEmail.xaml;Pages\Home\PayOther.xaml;Pages\Home\SalespersonLogin.xaml;Pages\Home\SelectSalesperson.xaml;Pages\LoginGuide\AdminGuide.xaml;Pages\LoginGuide\ChangeInfo.xaml;Pages\LoginGuide\InventoryGuide.xaml;Pages\LoginGuide\ReportGuide.xaml;Pages\Notification.xaml;Pages\Report\Customer.xaml;Pages\Report\DeleteOrderDetail.xaml;Pages\Report\DeleteOrder.xaml;Pages\Report\OrderDetail.xaml;Pages\Report\Payment.xaml;Pages\Report\Report.xaml;Pages\Report\All.xaml;Pages\Report\Salesperson.xaml;Pages\Settings\About.xaml;Pages\Settings\Appearance.xaml;Pages\SettingsPage.xaml;Pages\LoginGuide\FirstTimeLoginGuide.xaml;Pages\Settings\Help.xaml;Pages\Settings\Languages.xaml;Pages\Setting\Account.xaml;Pages\Setting\AddCategory.xaml;Pages\Setting\DeletePayment.xaml;Pages\Setting\EditPayment.xaml;Pages\Setting\AddPayment.xaml;Pages\Setting\AppSetting.xaml;Pages\Setting\BackupSQLServer.xaml;Pages\Setting\DeleteRestoreLocal_Confirm.xaml;Pages\Setting\InputHistory.xaml;Pages\Setting\Logs.xaml;Pages\Setting\RestartUndoBackup.xaml;Pages\Setting\RestoreRestoreLocal_Confirm.xaml;Pages\Setting\UndoRestoreLocal.xaml;Pages\Setting\BackupLocal_Confirm.xaml;Pages\Setting\DeleteLocal_Confirm.xaml;Pages\Setting\RestoreLocal_Confirm.xaml;Pages\Setting\ConfirmQuestion.xaml;Pages\Setting\CreateNewPassword.xaml;Pages\Setting\EditCategory.xaml;Pages\Setting\ChangePassword.xaml;Pages\Setting\DeleteCurrency.xaml;Pages\Setting\EditCurrency.xaml;Pages\Setting\AddCurrency.xaml;Pages\Setting\BackupGDrive.xaml;Pages\Setting\Currency.xaml;Pages\Setting\DeleteCustomer.xaml;Pages\Setting\EditUser.xaml;Pages\Setting\BackupLocal.xaml;Pages\Setting\ImportLocal.xaml;Pages\Setting\RestoreGDrive.xaml;Pages\Setting\DeleteGDrive.xaml;Pages\Setting\EditCustomer.xaml;Pages\Setting\AddCustomer.xaml;Pages\Setting\Customer.xaml;Pages\Setting\EditProduct.xaml;Pages\Setting\AddProduct.xaml;Pages\Setting\DeleteProduct.xaml;Pages\Setting\DeleteSalesperson.xaml;Pages\Setting\EditSalesperson.xaml;Pages\Setting\AddSalesperson.xaml;Pages\Setting\DeleteCategory.xaml;Pages\Setting\ExportLocal.xaml;Pages\Setting\ImportExportGDrive.xaml;Pages\Setting\Product.xaml;Pages\Setting\Salesperson.xaml;Pages\Setting\Setting.xaml;Pages\Setting\BackupDB.xaml;Pages\Setting\Payment.xaml;Pages\Setting\User.xaml;Pages\Statistic\Home.xaml;Style\ModernWindow.xaml;Style\StyleDictionary.xaml;UserControls\BCButtonAscDesc.xaml;UserControls\UCButtonOnOff.xaml;UserControls\UCConnectServer.xaml;UserControls\UCProduct.xaml;Views\AddPaymentToPayCash.xaml;Views\Home\LoginSystem.xaml;Views\Payment.xaml;Views\PaymentScan.xaml;Views\Setting\GiftCard.xaml;Views\Setting\GiftCard_Add.xaml;Views\Setting\GiftCard_Edit.xaml;Views\Setting\GiftCard_PreviewPrint.xaml;Views\Setting\GiftCard_Tools.xaml;Views\Setting\GiftCard_View.xaml;Views\Setting\ImExportDataBase.xaml;Views\Setting\ImportCategory.xaml;Views\Setting\ImportCustomer.xaml;Views\Setting\ImportProduct.xaml;Views\ShellOut.xaml;
+
+False
+

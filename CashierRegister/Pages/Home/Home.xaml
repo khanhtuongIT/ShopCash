@@ -1,0 +1,349 @@
+﻿<UserControl x:Class="CashierRegister.Pages.Home.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:local="clr-namespace:CashierRegister.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1320" LayoutUpdated="UserControl_LayoutUpdated" Loaded="UserControl_Loaded" SizeChanged="UserControl_SizeChanged">
+
+    <Grid Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="cd1" MinWidth="650" Width="660"/>
+            <ColumnDefinition Width="3"/>
+            <ColumnDefinition x:Name="cd3" Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Border CornerRadius="5,5,0,0" Grid.ColumnSpan="3" Background="WhiteSmoke" BorderBrush="#FF9E9E9E" BorderThickness="1">
+            <Grid>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10 0 0 0">
+                    <TextBlock Text="{DynamicResource for}"></TextBlock>
+                    <TextBlock Text=": "></TextBlock>
+                    <TextBlock x:Name="tblCustomer" FontWeight="Bold"></TextBlock>
+                </StackPanel>
+
+                <TextBlock x:Name="tblTotalProduct" VerticalAlignment="Center" Text="" Foreground="Firebrick" FontWeight="Bold"></TextBlock>
+
+                <mui:ModernButton x:Name="muiBtnCustomer" Click="muiBtnCustomer_Click" VerticalAlignment="Center" IconHeight="20" IconWidth="20" EllipseDiameter="35" IconData="M13.958583,24.422L16.442997,24.422C17.933706,25.484518,19.638317,26.243532,21.458628,26.711039L24.260645,30.713706C24.327045,30.782708,24.414345,30.817809,24.492447,30.867411L20.11072,40.341469C19.866117,40.760777,19.777418,41.211285,20.11072,41.54199L24.526247,45.956165C24.85965,46.29077,25.394651,46.29077,25.727953,45.956165L30.143478,41.54199C30.472881,41.211285,30.472881,40.673475,30.143478,40.341469L25.763355,30.867411C25.844055,30.817809,25.923254,30.782708,25.993855,30.713706L28.794373,26.711039C30.616182,26.243532,32.316589,25.484518,33.810303,24.422L36.294418,24.422C44.002964,24.422,50.253002,30.673306,50.253002,38.380437L50.253002,40.232069 50.253002,43.880529 50.253002,45.323353C50.253002,46.864979,49.002995,48.115,47.461182,48.115L2.7917666,48.115C1.2500074,48.115,0,46.864979,0,45.323353L0,43.880529 0,40.232069 0,38.380437C0,30.673306,6.2500372,24.422,13.958583,24.422z M25.1161,0C31.860701,0 37.327,5.4660378 37.327,12.208251 37.327,18.958224 31.860701,24.423001 25.1161,24.423001 18.3713,24.423001 12.905001,18.958224 12.905001,12.208251 12.905001,5.4660378 18.3713,0 25.1161,0z">
+                    <mui:ModernButton.ToolTip>
+                        <TextBlock Text="{DynamicResource select_customer}"></TextBlock>
+                    </mui:ModernButton.ToolTip>
+                </mui:ModernButton>
+
+                <TextBlock x:Name="tblSumnProduct_Category" Text="{DynamicResource category_zero}" Foreground="Firebrick" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBox x:Name="txbSearch" KeyDown="txbSearch_KeyDown" Height="25" VerticalContentAlignment="Center" Visibility="Collapsed" VerticalAlignment="Center" Margin="0,0,5,0" HorizontalAlignment="Right" Width="170">
+                        <TextBox.ToolTip>
+                            <TextBlock Text="{DynamicResource enter_search}"></TextBlock>
+                        </TextBox.ToolTip>
+                    </TextBox>
+                    <Grid>
+                        <mui:ModernButton x:Name="muiBtnSearch" Margin="0,0,2,0" Click="muiBtnSearch_Click" VerticalAlignment="Center" HorizontalAlignment="Right" IconHeight="20" IconWidth="20" EllipseDiameter="35" IconData="M8.14424701781246,3.05618995722875C7.12007089705441,3.07381576594457 6.09323497862789,3.38365477618321 5.2255420312402,4.0027875333701 3.11227007956478,5.51229089793309 2.74635144324276,8.29055112895116 4.41035743803952,10.2104968458091 6.07324548811886,12.1270875364219 9.13551040739987,12.4595136075889 11.2499112710473,10.9499692350303 13.3643064126489,9.44046396311864 13.729101143789,6.66228717860326 12.0650949105737,4.74234241541966 11.1299295053003,3.66232699450597 9.75211139769528,3.085712137786 8.34899898619625,3.05655592974767 8.28079219908688,3.05513829287633 8.21252533049557,3.05501479205235 8.14424701781246,3.05618995722875z M8.22805114836666,9.13855949136178E-07C10.668668709707,-0.00109195717119093 13.0852698907373,0.978045883742418 14.7117328271386,2.85287398394689 17.0316981896875,5.52926916178807 17.0122623071191,9.19284147318944 14.9277696237085,11.828573170272L21.3330001458642,19.2167548566733 17.8431472405908,21.7100009351645 11.4610843286035,14.3489417463218C8.1207360848901,15.6413831144248 4.11695524306271,14.81031412181 1.76372071356747,12.0999650388633 -1.04924479870823,8.853623333541 -0.43103859572437,4.1554188161765 3.1444131955621,1.60117894705876 4.65327879042599,0.523573818770494 6.44705959410641,0.000798217873345664 8.22805114836666,9.13855949136178E-07z">
+                            <mui:ModernButton.ToolTip>
+                                <TextBlock Text="{DynamicResource search}"></TextBlock>
+                            </mui:ModernButton.ToolTip>
+                        </mui:ModernButton>
+                        <mui:ModernButton x:Name="muiBtnScanBarcode" Click="muiBtnScanBarcode_Click" Visibility="Collapsed" Margin="0,0,2,0" VerticalAlignment="Center" HorizontalAlignment="Right" IconHeight="20" IconWidth="20" EllipseDiameter="35" IconData="M10.701982,19.793L12.041983,19.793 12.041983,21.134 10.701982,21.134z M17.319983,18.57L18.659982,18.57 18.659982,19.89 19.991982,19.89 19.991982,18.57 21.332983,18.57 21.332983,19.91 19.992983,19.91 19.992983,21.23 18.652983,21.23 18.652983,19.91 17.327982,19.91 17.327982,21.23 15.986982,21.23 15.986982,19.89 17.319983,19.89z M9.3599825,18.474L10.700983,18.474 10.700983,19.814 9.3599825,19.814z M19.992983,15.931L21.332983,15.931 21.332983,17.272 19.992983,17.272z M2.7499828,15.918L5.4169827,15.918 5.4169827,18.585 2.7499828,18.585z M9.3599825,15.834L10.700983,15.834 10.700983,17.174 9.3599825,17.174z M14.646982,14.536L14.646982,15.855 13.380983,15.855 13.380983,17.155 14.646982,17.155 14.646982,18.474 15.986982,18.474 15.986982,17.155 17.319983,17.155 17.319983,15.855 15.978982,15.855 15.978982,14.536z M12.041983,14.536L12.041983,15.834 13.306983,15.834 13.306983,14.536z M1.1881447,14.355133L1.1881447,19.898865 6.8418388,19.898865 6.8418388,14.355133z M19.992983,13.251L21.332983,13.251 21.332983,14.591 19.992983,14.591z M13.380983,13.216L13.380983,14.515 14.646982,14.515 14.646982,13.216z M9.3599825,13.195L10.700983,13.195 10.700983,14.536 9.3599825,14.536z M0,13.167976L8.0289841,13.167976 8.0289841,21.085021 0,21.085021z M12.041983,11.897L12.041983,13.195 13.306983,13.195 13.306983,11.897z M13.380983,10.577L13.380983,11.876 14.646982,11.876 14.646982,10.577z M15.986982,10.556L15.986982,11.897 14.646982,11.897 14.646982,13.195 15.986982,13.195 15.986982,14.515 17.319983,14.515 17.319983,13.196 18.652983,13.196 18.652983,11.876 17.319983,11.876 17.319983,10.556z M5.3409824,9.2820001L6.6809826,9.2820001 6.6809826,10.601 8.0199823,10.601 8.0199823,9.2820001 9.3599825,9.2820001 9.3599825,10.556 10.700983,10.556 10.700983,11.897 9.3599825,11.897 9.3599825,10.622 8.0209827,10.622 8.0209827,11.941 6.6809826,11.941 6.6809826,10.622 5.3409824,10.622z M0.061983109,9.2260001L1.4019823,9.2260001 1.4019823,10.547 2.7429829,10.547 2.7429829,9.2260001 4.0829821,9.2260001 4.0829821,10.566 2.7429829,10.566 2.7429829,11.887 1.4019823,11.887 1.4019823,10.566 0.061983109,10.566z M15.978982,9.2159998L17.319983,9.2159998 17.319983,10.536 18.659982,10.536 18.659982,9.2159998 19.999982,9.2159998 19.999982,10.536 21.332983,10.536 21.332983,11.876 19.992983,11.876 19.992983,10.556 18.659982,10.556 18.659982,11.876 19.992983,11.876 19.992983,13.217 18.659982,13.217 18.659982,14.536 17.319983,14.536 17.319983,15.834 18.652983,15.834 18.652983,14.591 19.992983,14.591 19.992983,15.931 18.659982,15.931 18.659982,17.175 17.327982,17.175 17.327982,18.495 15.986982,18.495 15.986982,19.814 14.646982,19.814 14.646982,21.134 13.306983,21.134 13.306983,19.793 14.646982,19.793 14.646982,18.495 13.306983,18.495 13.306983,17.174 12.041983,17.174 12.041983,18.495 10.701982,18.495 10.701982,17.155 12.040983,17.155 12.040983,15.855 10.701982,15.855 10.701982,14.515 12.040983,14.515 12.040983,13.216 10.701982,13.216 10.701982,11.876 12.040983,11.876 12.040983,10.556 13.306983,10.556 13.306983,9.2369998 14.646982,9.2369998 14.646982,10.556 15.978982,10.556z M9.3599825,7.9180002L10.700983,7.9180002 10.700983,9.2580001 9.3599825,9.2580001z M10.701982,6.5970001L12.041983,6.5970001 12.041983,7.9370003 10.701982,7.9370003z M9.3599825,5.2779999L10.700983,5.2779999 10.700983,6.618 9.3599825,6.618z M10.701982,3.9580002L12.041983,3.9580002 12.041983,5.2990003 10.701982,5.2990003z M15.986982,2.6389999L18.653982,2.6389999 18.653982,5.3070002 15.986982,5.3070002z M9.3599825,2.6389999L10.700983,2.6389999 10.700983,3.9790001 9.3599825,3.9790001z M2.7499828,2.6389999L5.4169827,2.6389999 5.4169827,5.3070002 2.7499828,5.3070002z M10.701982,1.3190002L12.041983,1.3190002 12.041983,2.6599998 10.701982,2.6599998z M14.492992,1.2709789L14.492992,6.8110013 20.146991,6.8110013 20.146991,1.2709789z M1.1881447,1.2709789L1.1881447,6.8110013 6.8418388,6.8110013 6.8418388,1.2709789z M13.306993,0.081974983L21.332991,0.081974983 21.332991,8.0000057 13.306993,8.0000057z M0,0.081974983L8.0289841,0.081974983 8.0289841,8.0000057 0,8.0000057z M9.3599825,0L10.700983,0 10.700983,1.3400002 9.3599825,1.3400002z">
+                            <mui:ModernButton.ToolTip>
+                                <TextBlock Text="{DynamicResource scan_barcode}"></TextBlock>
+                            </mui:ModernButton.ToolTip>
+                        </mui:ModernButton>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="140"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Border x:Name="bdOrderDetail" SizeChanged="bdOrderDetail_SizeChanged" BorderThickness="1 0 1 0" CornerRadius="0.5" BorderBrush="#FF9E9E9E" Background="White">
+                <DataGrid x:Name="dtgOrderDetail" Background="Transparent" HorizontalAlignment="Left" Margin="1" SelectionMode="Single" AutoGenerateColumns="False" GridLinesVisibility="None" IsReadOnly="True" AlternatingRowBackground="AliceBlue" HeadersVisibility="Column" HorizontalScrollBarVisibility="Auto">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Width="*">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource product_name}" Foreground="#FF33691E" HorizontalAlignment="Center"></TextBlock>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=ProductName}" VerticalAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap"></TextBlock>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="Auto">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource price}" Foreground="#FF33691E" HorizontalAlignment="Center"></TextBlock>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right">
+                                        <TextBlock Text="{Binding Path=StrPrice}"></TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="Auto">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource qty}" Foreground="#FF33691E" HorizontalAlignment="Center"></TextBlock>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border CornerRadius="3,3,3,3" Background="LightSkyBlue" Height="25" VerticalAlignment="Center">
+                                        <Button Click="btnQty_Click" Background="Transparent" BorderThickness="0">
+                                            <TextBlock Text="{Binding Path=Qty}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                        </Button>
+                                        <Border.ToolTip>
+                                            <TextBlock Text="{DynamicResource change_qty}"></TextBlock>
+                                        </Border.ToolTip>
+                                    </Border>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="Auto">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource discount}" Foreground="#FF33691E" HorizontalAlignment="Center"></TextBlock>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border CornerRadius="3,3,3,3" Background="LightSkyBlue" Height="25" VerticalAlignment="Center">
+                                        <Button Click="btnDiscountDetail_Click" Background="Transparent" BorderThickness="0">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="{Binding Path=DiscountTypeUnit0}"></TextBlock>
+                                                <TextBlock Text="{Binding Path=StrDiscount}"></TextBlock>
+                                                <TextBlock Text="{Binding Path=DiscountTypeUnit1}"></TextBlock>
+                                            </StackPanel>
+                                        </Button>
+                                        <Border.ToolTip>
+                                            <TextBlock Text="{DynamicResource change_discount_detail}"></TextBlock>
+                                        </Border.ToolTip>
+                                    </Border>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="Auto">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource total_discount}" Foreground="#FF33691E" HorizontalAlignment="Center"></TextBlock>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right">
+                                        <TextBlock Text="{Binding Path=StrTotalDiscount}"></TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="Auto">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource total}" Foreground="#FF33691E" HorizontalAlignment="Center"></TextBlock>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right">
+                                        <TextBlock Text="{Binding Path=StrTotal}"></TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="Auto">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource delete}" Foreground="#FF33691E" HorizontalAlignment="Center"></TextBlock>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Click="btnDeleteOrderDetail_Click" VerticalAlignment="Center" HorizontalAlignment="Center" BorderThickness="0" Background="Transparent">
+                                        <Image Source="{Binding Path=ImageDeleteUrl}" Width="18" Height="18" VerticalAlignment="Center" HorizontalAlignment="Center"></Image>
+                                        <Button.ToolTip>
+                                            <TextBlock Text="{DynamicResource delete}"></TextBlock>
+                                        </Button.ToolTip>
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Border>
+
+            <Border Grid.Row="1" BorderThickness="1 1 1 0" CornerRadius="0.5" BorderBrush="#FF9E9E9E" Background="WhiteSmoke">
+                <Grid Margin="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock FontWeight="Medium" VerticalAlignment="Center" Margin="5,0,0,0" Grid.Row="0" Text="{DynamicResource subtotal}"></TextBlock>
+                    <TextBlock x:Name="tblSubtotal" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" Grid.Row="0" Text="0" FontWeight="Bold"></TextBlock>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="5 0 0 0" VerticalAlignment="Center">
+                        <TextBlock FontWeight="Medium" Text="{DynamicResource tax}"></TextBlock>
+                        <TextBlock FontWeight="Medium" Text=": "></TextBlock>
+                        <TextBlock FontWeight="Medium" x:Name="tblTax"></TextBlock>
+                    </StackPanel>
+                    <TextBlock x:Name="tblTaxMoney" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" Grid.Row="1" Text="0" FontWeight="Bold"></TextBlock>
+
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Grid.Row="2" Margin="5 0 0 0">
+                        <TextBlock FontWeight="Medium" Text="{DynamicResource discount}"></TextBlock>
+                        <TextBlock FontWeight="Medium" Text=": "></TextBlock>
+                        <TextBlock FontWeight="Medium" x:Name="tblDiscount"></TextBlock>
+                    </StackPanel>
+                    <TextBlock x:Name="tblDiscountMoney" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" Grid.Row="2" Text="0" FontWeight="Bold"></TextBlock>
+
+                    <TextBlock FontWeight="Medium" VerticalAlignment="Center" Margin="5,0,0,0" Grid.Row="3" Text="{DynamicResource total}"></TextBlock>
+                    <TextBlock x:Name="tblTotal" Foreground="Firebrick" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" Grid.Row="3" Text="0" FontWeight="Bold"></TextBlock>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="2" BorderThickness="1" CornerRadius="0,0,0,5" BorderBrush="#FF9E9E9E" Background="WhiteSmoke">
+                <Grid Margin="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Border x:Name="bdUndo" CornerRadius="3" Margin="1" Background="{Binding Path=Solid_Color_Brush}">
+                        <Button x:Name="btnUndo" MouseEnter="btnUndo_MouseEnter" MouseLeave="btnUndo_MouseLeave" Foreground="White" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" FontWeight="Bold" FontSize="15" Click="btnUndo_Click" Height="35" Content="{DynamicResource undo}">
+                            <Button.ToolTip>
+                                <TextBlock Text="{DynamicResource undo}"></TextBlock>
+                            </Button.ToolTip>
+                        </Button>
+                    </Border>
+
+                    <Border x:Name="bdSendEmail" Margin="1 1 0 1" Background="{Binding Path=Solid_Color_Brush}" Grid.Column="1" CornerRadius="3">
+                        <Button x:Name="btnSendEmail" Foreground="White" MouseEnter="btnSendEmail_MouseEnter" MouseLeave="btnSendEmail_MouseLeave" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Click="btnSendEmail_Click" Height="35" FontWeight="Bold" FontSize="15" Content="{DynamicResource print_or_send_email}">
+                            <Button.ToolTip>
+                                <TextBlock Text="{DynamicResource print_or_send_email}"></TextBlock>
+                            </Button.ToolTip>
+                        </Button>
+                    </Border>
+
+                    <Border x:Name="bdClearAll" Margin="1" Background="{Binding Path=Solid_Color_Brush}" Grid.Row="1" CornerRadius="3">
+                        <Button x:Name="btnClearAll" MouseEnter="btnClearAll_MouseEnter" MouseLeave="btnClearAll_MouseLeave" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Click="btnClearAll_Click" Height="35" FontWeight="Bold" FontSize="15" Foreground="Red" Content="{DynamicResource clear_all}">
+                            <Button.ToolTip>
+                                <TextBlock Text="{DynamicResource clear_all}"></TextBlock>
+                            </Button.ToolTip>
+                        </Button>
+                    </Border>
+
+                    <Border x:Name="bdPayCash" Margin="1 1 0 1" Background="{Binding Path=Solid_Color_Brush}" Grid.Row="1" Grid.Column="1" CornerRadius="3" Grid.RowSpan="2">
+                        <Button x:Name="btnPayCash" Background="Transparent" MouseEnter="btnPayCash_MouseEnter" MouseLeave="btnPayCash_MouseLeave" BorderBrush="Transparent" BorderThickness="0" Click="btnPayCash_Click" Height="35" FontWeight="Bold" FontSize="15" Foreground="White" Content="{DynamicResource single_pay}">
+                            <Button.ToolTip>
+                                <TextBlock Text="{DynamicResource single_pay}"></TextBlock>
+                            </Button.ToolTip>
+                        </Button>
+                    </Border>
+
+                    <Border x:Name="bdDiscount" Margin="1" Background="{Binding Path=Solid_Color_Brush}" Grid.Row="2" CornerRadius="3">
+                        <Button x:Name="btnDiscount" MouseEnter="btnDiscount_MouseEnter" MouseLeave="btnDiscount_MouseLeave" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Click="btnDiscount_Click" Height="35" FontWeight="Bold" FontSize="15" Foreground="White" Content="{DynamicResource discount}">
+                            <Button.ToolTip>
+                                <TextBlock Text="{DynamicResource discount}"></TextBlock>
+                            </Button.ToolTip>
+                        </Button>
+                    </Border>
+
+                    <!--<Border x:Name="bdPayOther" Margin="1 1 0 1" Background="{Binding Path=Solid_Color_Brush}" Grid.Row="2" Grid.Column="1" CornerRadius="3">
+                        <Button x:Name="btnPayOther" MouseEnter="btnPayOther_MouseEnter" MouseLeave="btnPayOther_MouseLeave" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Click="btnPayOther_Click" Height="35" FontWeight="Bold" FontSize="15" Foreground="White" Content="{DynamicResource pay_other}">
+                            <Button.ToolTip>
+                                <TextBlock Text="{DynamicResource pay_other}"></TextBlock>
+                            </Button.ToolTip>
+                        </Button>
+                    </Border>-->
+
+                    <Border x:Name="bdSalesperson" Margin="1 1 0 1" Background="{Binding Path=Solid_Color_Brush}" Grid.Row="3" Grid.ColumnSpan="2" CornerRadius="3">
+                        <Button x:Name="btnSalesperson" Background="Transparent" BorderBrush="Transparent" MouseEnter="btnSalesperson_MouseEnter" MouseLeave="btnSalesperson_MouseLeave" BorderThickness="0" Click="btnSalesperson_Click" Height="35" FontWeight="Bold" FontSize="15" Foreground="White" Content="">
+                            <Button.ToolTip>
+                                <TextBlock Text="{DynamicResource salesperson}"></TextBlock>
+                            </Button.ToolTip>
+                        </Button>
+                    </Border>
+                </Grid>
+            </Border>
+
+        </Grid>
+
+        <GridSplitter x:Name="gs" Background="#FF9E9E9E" Grid.Column="1" Grid.Row="1"/>
+
+        <Grid Grid.Column="2" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="0.5"></RowDefinition>
+                <RowDefinition Height="110"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+
+            <Border Background="White" BorderBrush="#FF9E9E9E" BorderThickness="0 0 1 0" CornerRadius="0.5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="55"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="25"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Margin="10 15 10 0" HorizontalAlignment="Right" VerticalAlignment="Top" x:Name="stp_home_sort">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="53"></ColumnDefinition>
+                                <ColumnDefinition Width="120"></ColumnDefinition>
+                                <ColumnDefinition Width="215"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{DynamicResource giftcard_sortby}" FontWeight="Bold" Margin="0 8 0 0"></TextBlock>
+                            <ComboBox Grid.Column="1" x:Name="cb_SortBy" SelectionChanged="cb_SortBy_SelectionChanged" Padding="10 8 0 0">
+                            </ComboBox>
+                            <local:BCButtonAscDesc Grid.Column="2" x:Name="UCSortDirect" VerticalAlignment="Center" Margin="10 0 0 0"></local:BCButtonAscDesc>
+                        </Grid>
+                    </StackPanel>
+                    
+                    <mui:ModernProgressRing Grid.Row="1" x:Name="mprProduct" Width="100" Height="100" Style="{StaticResource CircleProgressRingStyle}" IsActive="False"></mui:ModernProgressRing>
+                    <ScrollViewer Grid.Row="1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                        <WrapPanel x:Name="wpProduct" Orientation="Horizontal"></WrapPanel>
+                    </ScrollViewer>
+
+                    <Grid Grid.Row="2" Background="Transparent">
+                        <StackPanel x:Name="spPaging" Background="Transparent" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"></StackPanel>
+                    </Grid>
+                </Grid>
+            </Border>
+            
+            <ProgressBar x:Name="prbScanBarcode" IsIndeterminate="False" VerticalAlignment="Top"></ProgressBar>
+
+            <TextBox x:Name="txbBarcode" IsEnabled="True" TextChanged="txbBarcode_TextChanged" LostFocus="txbBarcode_LostFocus" GotFocus="txbBarcode_GotFocus" Grid.Row="1" BorderThickness="0" VerticalContentAlignment="Center"></TextBox>
+
+            <!-- remove shadow for category BorderThickness="0 0 0.5 0.5" => BorderThickness="0 0 1 1" -->
+            <Border Grid.Row="2" Margin="1 0 0 0" Background="White" BorderBrush="#FF9E9E9E" BorderThickness="0 0 0.5 0.5" CornerRadius="0 0 5 0">
+                <Grid>
+                    <mui:ModernProgressRing x:Name="mprcat" Width="70" Height="70" HorizontalAlignment="Center" IsActive="False" Style="{StaticResource ThreeBounceProgressRingStyle}"></mui:ModernProgressRing>
+
+                    <ScrollViewer x:Name="scvCategory" Background="WhiteSmoke" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Disabled" PreviewMouseWheel="scvCategory_PreviewMouseWheel">
+                        <WrapPanel x:Name="wpCategory" Background="White" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Disabled"></WrapPanel>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+
+        </Grid>
+    </Grid>
+</UserControl>

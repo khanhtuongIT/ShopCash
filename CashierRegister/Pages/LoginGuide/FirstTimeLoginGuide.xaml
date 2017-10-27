@@ -1,0 +1,50 @@
+﻿<mui:ModernWindow x:Class="CashierRegister.Pages.LoginGuide.FirstTimeLoginGuide"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  xmlns:ContentTransition="clr-namespace:ShowAnimation;assembly=ShowAnimation"
+                  mc:Ignorable="d"
+                  d:DesignHeight="300" d:DesignWidth="300" Width="450" Height="625"
+                  Title="{DynamicResource quick_guide}" Closed="ModernWindow_Closed"
+                  Style="{StaticResource BlankWindow}"  ResizeMode="NoResize" WindowStyle="None">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid  Margin="10 10 10 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ContentTransition:ContentTransition Name="ContentTransition" TransitionType="Slide" Grid.Column="1" Margin="2"></ContentTransition:ContentTransition>
+        </Grid>
+        <StackPanel x:Name="stpIndex" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Grid Margin="5 5 5 10">
+                <Image x:Name="img1" Uid="1" MouseLeftButtonDown="img1_MouseLeftButtonDown" Stretch="None" ></Image>
+                <TextBlock Text="1" x:Name="tbl1" MouseLeftButtonDown="tbl1_MouseLeftButtonDown" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="15"></TextBlock>
+            </Grid>
+            <Grid Margin="5 5 5 10">
+                <Image x:Name="img2" Uid="2" MouseLeftButtonDown="img2_MouseLeftButtonDown" Stretch="None" ></Image>
+                <TextBlock Text="2" x:Name="tbl2" MouseLeftButtonDown="tbl2_MouseLeftButtonDown" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="15"></TextBlock>
+            </Grid>
+            <Grid Margin="5 5 5 10">
+                <Image x:Name="img3" Uid="3" MouseLeftButtonDown="img3_MouseLeftButtonDown" Stretch="None" ></Image>
+                <TextBlock  Text="3" x:Name="tbl3" MouseLeftButtonDown="tbl3_MouseLeftButtonDown" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="15"></TextBlock>
+            </Grid>
+            <Grid Margin="5 5 5 10">
+                <Image x:Name="img4" Uid="4" MouseLeftButtonDown="img4_MouseLeftButtonDown" Stretch="None" ></Image>
+                <TextBlock Text="4" x:Name="tbl4" MouseLeftButtonDown="tbl4_MouseLeftButtonDown" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="15"></TextBlock>
+            </Grid>
+        </StackPanel>
+        <Grid Grid.Row="2" Grid.ColumnSpan="3">
+            <CheckBox x:Name="chkShowGuide" Content="{DynamicResource do_not_show_again}" VerticalAlignment="Center"></CheckBox>
+            <Button x:Name="btnReadMore" Content="{DynamicResource read_more}" Click="btnReadMore_Click" HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
+        </Grid>
+    </Grid>
+</mui:ModernWindow>

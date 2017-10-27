@@ -1,0 +1,25 @@
+﻿<mui:ModernDialog x:Class="CashierRegister.Pages.Setting.AddCategory"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="300"
+                  Title="{DynamicResource add_category}">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+    <Grid VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txbCategoryName" MaxLength="200" Margin="0,0,0,25" KeyDown="txbCategoryName_KeyDown" Width="250" HorizontalAlignment="Left"></TextBox>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" x:Name="stpButton">
+            <Button x:Name="muiBtnOK" Click="muiBtnOK_Click" Margin="0,0,5,0" Width="80" Content="{DynamicResource ok}"></Button>
+            <Button x:Name="muiBtnCancel" Click="muiBtnCancel_Click" Width="80" Content="{DynamicResource cancel}"></Button>
+        </StackPanel>
+        <TextBlock x:Name="tblNotification" Margin="0,20,0,0" Foreground="Firebrick" Text="" VerticalAlignment="Bottom" Grid.Row="2"></TextBlock>
+    </Grid>
+</mui:ModernDialog>
